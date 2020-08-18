@@ -1,0 +1,17 @@
+<!--Written & Developed by KAJAL Kiran-->
+
+<suite name = "End 2 End flow for Single Hero Fight">
+    <listeners>
+        <listener class-name= "core.listener_and_reporting.TestListener"/>
+    </listeners>
+
+    <test name="Single Hero Fight" verbose="2" preserve-order="true">
+        <classes>
+            <class name = "com.test_classes.ListOfHeroesTest"/>
+            <class name = "com.test_classes.GetOneHeroTest"/>
+            <class name = "com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest"/>
+            <class name = "com.test_classes.make_them_fight.FightWithSingleHeroTest"/>
+            <class name = "com.test_classes.ResetTheFightTest"/>
+        </classes>
+    </test>
+</suite>

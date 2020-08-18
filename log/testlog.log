@@ -1,0 +1,666 @@
+2020-08-18 09:08:40,219 - com.test_classes.ListOfHeroesTest -INFO - {"statusCode":401,"error":"Unauthorized"}
+2020-08-18 09:13:09,306 - com.test_classes.ListOfHeroesTest -INFO - [{"id":"THR","name":"Thor","powerlevel":9},{"id":"HLK","name":"Hulk","powerlevel":5},{"id":"CAM","name":"Captain America","powerlevel":8},{"id":"IRM","name":"Iron Man","powerlevel":7},{"id":"BLW","name":"Black Widow","powerlevel":6},{"id":"DRS","name":"Doctor Strange","powerlevel":4},{"id":"VSN","name":"Vision","powerlevel":3}]
+2020-08-18 09:39:33,359 - GetOneHeroTest -INFO - Test scenario : Positive - Verifying with passing valid parameters
+2020-08-18 09:39:35,330 - GetOneHeroTest -INFO - {"id":"THR","name":"Thor","powerlevel":9}
+2020-08-18 09:39:35,519 - GetOneHeroTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 10:41:22,994 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User :
+2020-08-18 10:41:25,413 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 10:41:25,430 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 1st User parameter :
+2020-08-18 10:41:25,479 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 10:41:25,479 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 10:41:25,483 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying without passing parameter :
+2020-08-18 10:41:25,680 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 10:41:25,681 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 10:41:25,686 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing invalid parameter as "HGFhjh" :
+2020-08-18 10:41:25,746 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 10:41:25,747 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 10:41:25,750 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing invalid parameter as "123456" :
+2020-08-18 10:41:25,779 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 10:41:25,780 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 10:41:25,781 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing invalid parameter as "Special Character" :
+2020-08-18 10:41:25,812 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 10:41:25,813 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 10:41:25,815 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing invalid parameter as "Numeric" :
+2020-08-18 10:41:25,839 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 10:41:25,840 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 10:50:40,594 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User :
+2020-08-18 10:50:42,761 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 10:55:22,012 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 10:55:24,336 - example -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 10:55:59,461 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 10:56:01,985 - example -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 10:59:36,069 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 10:59:38,904 - example -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 11:07:24,560 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 11:07:34,560 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 11:08:41,340 - example -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 11:15:33,569 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 11:17:19,121 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 11:17:22,922 - example -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 11:19:03,994 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 11:23:40,424 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 11:23:46,073 - example -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 11:28:12,250 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 11:28:16,995 - example -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 11:29:11,856 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 11:31:09,336 - example -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 11:32:20,247 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 11:33:30,033 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 11:33:34,703 - example -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 11:34:43,363 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 11:40:54,117 - example -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 12:19:04,620 - example -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 12:27:28,238 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 12:27:32,960 - example -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 13:03:52,750 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 13:05:25,536 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 13:05:29,171 - example -INFO - {"statusCode":401,"error":"Unauthorized"}
+2020-08-18 13:06:27,741 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 13:06:31,203 - example -INFO - {"errorCode":"1001","error":"Thor could not be added because is already in the fight."}
+2020-08-18 13:10:32,534 - example -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 13:10:34,930 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 13:10:38,760 - example -INFO - {"errorCode":"1001","error":"Thor could not be added because is already in the fight."}
+2020-08-18 13:11:09,399 - example -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st User : 
+2020-08-18 13:11:12,261 - example -INFO - {"message":"Yippie! Thor added. At the moment 1 hero waiting to fight."}
+2020-08-18 13:11:12,264 - example -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:12:48,970 - GetOneHeroTest -INFO - Test scenario : Positive - Verifying with passing valid parameter : 
+2020-08-18 13:12:52,002 - GetOneHeroTest -INFO - {"id":"THR","name":"Thor","powerlevel":9}
+2020-08-18 13:12:52,093 - GetOneHeroTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:13:17,128 - com.test_classes.ListOfHeroesTest -INFO - [{"id":"THR","name":"Thor","powerlevel":9},{"id":"HLK","name":"Hulk","powerlevel":5},{"id":"CAM","name":"Captain America","powerlevel":8},{"id":"IRM","name":"Iron Man","powerlevel":7},{"id":"BLW","name":"Black Widow","powerlevel":6},{"id":"DRS","name":"Doctor Strange","powerlevel":4},{"id":"VSN","name":"Vision","powerlevel":3}]
+2020-08-18 13:32:24,865 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st hero_id :
+2020-08-18 13:32:27,102 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1003","error":"A maximum of 3 heroes are allowed per fight."}
+2020-08-18 13:47:04,389 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st hero_id : 
+2020-08-18 13:47:06,917 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"message":"Yippie! Iron Man added. At the moment 1 hero waiting to fight."}
+2020-08-18 13:47:07,242 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 1st hero_id parameter : 
+2020-08-18 13:47:07,276 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Iron Man could not be added because is already in the fight."}
+2020-08-18 13:47:07,280 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 2nd hero_id : 
+2020-08-18 13:47:07,326 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"message":"Yippie! Black Widow added. At the moment 2 heroes waiting to fight."}
+2020-08-18 13:47:07,330 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 2nd hero_id parameter : 
+2020-08-18 13:47:07,359 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Black Widow could not be added because is already in the fight."}
+2020-08-18 13:47:07,362 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 3rd hero_id : 
+2020-08-18 13:47:07,390 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"message":"Yippie! Doctor Strange added. At the moment 3 heroes waiting to fight."}
+2020-08-18 13:47:07,393 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 3rd hero_id parameter : 
+2020-08-18 13:47:07,422 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Doctor Strange could not be added because is already in the fight."}
+2020-08-18 13:47:07,425 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing valid parameter for 4rd hero_id : 
+2020-08-18 13:47:07,446 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1003","error":"A maximum of 3 heroes are allowed per fight."}
+2020-08-18 13:47:45,301 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st hero_id : 
+2020-08-18 13:47:47,551 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Iron Man could not be added because is already in the fight."}
+2020-08-18 13:47:47,571 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 1st hero_id parameter : 
+2020-08-18 13:47:47,608 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Iron Man could not be added because is already in the fight."}
+2020-08-18 13:47:47,608 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:47:47,610 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 2nd hero_id : 
+2020-08-18 13:47:47,645 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Black Widow could not be added because is already in the fight."}
+2020-08-18 13:47:47,648 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 2nd hero_id parameter : 
+2020-08-18 13:47:47,677 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Black Widow could not be added because is already in the fight."}
+2020-08-18 13:47:47,678 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:47:47,680 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 3rd hero_id : 
+2020-08-18 13:47:47,697 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Doctor Strange could not be added because is already in the fight."}
+2020-08-18 13:47:47,701 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 3rd hero_id parameter : 
+2020-08-18 13:47:47,726 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Doctor Strange could not be added because is already in the fight."}
+2020-08-18 13:47:47,727 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:47:47,729 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing valid parameter for 4rd hero_id : 
+2020-08-18 13:47:47,749 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1003","error":"A maximum of 3 heroes are allowed per fight."}
+2020-08-18 13:47:47,750 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:48:16,672 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st hero_id : 
+2020-08-18 13:48:18,996 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"message":"Yippie! Iron Man added. At the moment 1 hero waiting to fight."}
+2020-08-18 13:48:19,000 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:48:19,008 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 1st hero_id parameter : 
+2020-08-18 13:48:19,061 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Iron Man could not be added because is already in the fight."}
+2020-08-18 13:48:19,062 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:48:19,078 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 2nd hero_id : 
+2020-08-18 13:48:19,147 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"message":"Yippie! Black Widow added. At the moment 2 heroes waiting to fight."}
+2020-08-18 13:48:19,147 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:48:19,154 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 2nd hero_id parameter : 
+2020-08-18 13:48:19,194 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Black Widow could not be added because is already in the fight."}
+2020-08-18 13:48:19,194 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:48:19,197 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 3rd hero_id : 
+2020-08-18 13:48:19,222 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"message":"Yippie! Doctor Strange added. At the moment 3 heroes waiting to fight."}
+2020-08-18 13:48:19,223 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:48:19,225 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 3rd hero_id parameter : 
+2020-08-18 13:48:19,260 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Doctor Strange could not be added because is already in the fight."}
+2020-08-18 13:48:19,261 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:48:19,263 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing valid parameter for 4rd hero_id : 
+2020-08-18 13:48:19,287 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1003","error":"A maximum of 3 heroes are allowed per fight."}
+2020-08-18 13:48:19,288 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:52:40,325 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st hero_id : 
+2020-08-18 13:52:42,686 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"message":"Yippie! Thor added. At the moment 1 hero waiting to fight."}
+2020-08-18 13:52:42,691 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:52:42,699 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 1st hero_id parameter : 
+2020-08-18 13:52:42,734 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1001","error":"Thor could not be added because is already in the fight."}
+2020-08-18 13:52:42,735 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:52:42,737 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying without passing parameter : 
+2020-08-18 13:52:42,771 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 13:52:42,772 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:52:42,774 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying with passing invalid parameter as "HGFhjh" : 
+2020-08-18 13:52:42,806 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1000","error":"There is no hero with the id [HGFhjh]"}
+2020-08-18 13:52:42,807 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:52:42,812 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying with passing invalid parameter as "123456" : 
+2020-08-18 13:52:42,836 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1000","error":"There is no hero with the id [123456]"}
+2020-08-18 13:52:42,837 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:52:42,839 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying with passing invalid parameter as "Special Character" : 
+2020-08-18 13:52:42,875 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1000","error":"There is no hero with the id [$^&*^*^]"}
+2020-08-18 13:52:42,875 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:52:42,877 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying with passing invalid parameter as "Numeric" : 
+2020-08-18 13:52:42,909 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1000","error":"There is no hero with the id [$%YTUJ4546hjk]"}
+2020-08-18 13:52:42,910 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:58:25,172 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st hero_id : 
+2020-08-18 13:58:27,355 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - {"message":"Yippie! Iron Man added. At the moment 1 hero waiting to fight."}
+2020-08-18 13:58:27,359 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:58:27,364 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 1st hero_id parameter : 
+2020-08-18 13:58:27,397 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Iron Man could not be added because is already in the fight."}
+2020-08-18 13:58:27,398 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:58:27,400 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 2nd hero_id : 
+2020-08-18 13:58:27,433 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - {"message":"Yippie! Black Widow added. At the moment 2 heroes waiting to fight."}
+2020-08-18 13:58:27,434 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:58:27,436 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 2nd hero_id parameter : 
+2020-08-18 13:58:27,527 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Black Widow could not be added because is already in the fight."}
+2020-08-18 13:58:27,529 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:58:27,536 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 3rd hero_id : 
+2020-08-18 13:58:27,566 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - {"message":"Yippie! Doctor Strange added. At the moment 3 heroes waiting to fight."}
+2020-08-18 13:58:27,566 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:58:27,568 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 3rd hero_id parameter : 
+2020-08-18 13:58:27,595 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Doctor Strange could not be added because is already in the fight."}
+2020-08-18 13:58:27,596 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:59:46,373 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st hero_id : 
+2020-08-18 13:59:48,923 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - {"message":"Yippie! Hulk added. At the moment 1 hero waiting to fight."}
+2020-08-18 13:59:48,927 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:59:48,934 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 1st hero_id parameter : 
+2020-08-18 13:59:48,967 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - {"errorCode":"1001","error":"Hulk could not be added because is already in the fight."}
+2020-08-18 13:59:48,968 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:59:48,971 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 2nd hero_id : 
+2020-08-18 13:59:49,009 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - {"message":"Yippie! Captain America added. At the moment 2 heroes waiting to fight."}
+2020-08-18 13:59:49,010 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 13:59:49,013 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 2nd hero_id parameter : 
+2020-08-18 13:59:49,051 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - {"errorCode":"1001","error":"Captain America could not be added because is already in the fight."}
+2020-08-18 13:59:49,052 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 14:24:43,118 - com.test_classes.make_them_fight.FightBetweenTwoHeroesTest -INFO - io.restassured.internal.RestAssuredResponseImpl@7c2b6087
+2020-08-18 14:25:31,739 - com.test_classes.make_them_fight.FightBetweenTwoHeroesTest -INFO - io.restassured.internal.RestAssuredResponseImpl@51cd7ffc
+2020-08-18 14:26:34,800 - com.test_classes.make_them_fight.FightBetweenTwoHeroesTest -INFO - io.restassured.internal.RestAssuredResponseImpl@4cc6fa2a
+2020-08-18 14:27:33,462 - com.test_classes.make_them_fight.FightBetweenTwoHeroesTest -INFO - {"errorCode":"1004","error":"You can not start a fight with less than 2 heroes"}
+2020-08-18 14:34:40,639 - com.test_classes.make_them_fight.FightBetweenTwoHeroesTest -INFO - Test scenario : Negative - Verifying with adding 2 heroes to fight : 
+2020-08-18 14:34:42,843 - com.test_classes.make_them_fight.FightBetweenTwoHeroesTest -INFO - {"errorCode":"1004","error":"You can not start a fight with less than 2 heroes"}
+2020-08-18 16:53:55,655 - com.test_classes.ResetTheFightTest -INFO - Test scenario : Positive - Verifying fight has ben deleted successfully : 
+2020-08-18 16:53:58,553 - com.test_classes.ResetTheFightTest -INFO - {"message":"Fight has been deleted and now all heroes went back to Helicarrier Ship."}
+2020-08-18 16:53:58,557 - com.test_classes.ResetTheFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:52:40,528 - core.listener_and_reporting.TestListener -INFO - *** Test Suite Single Hero Fight started ***
+2020-08-18 17:52:40,657 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_01_VerifyListOfHeroes...
+2020-08-18 17:52:44,560 - com.test_classes.ListOfHeroesTest -INFO - [{"id":"THR","name":"Thor","powerlevel":9},{"id":"HLK","name":"Hulk","powerlevel":5},{"id":"CAM","name":"Captain America","powerlevel":8},{"id":"IRM","name":"Iron Man","powerlevel":7},{"id":"BLW","name":"Black Widow","powerlevel":6},{"id":"DRS","name":"Doctor Strange","powerlevel":4},{"id":"VSN","name":"Vision","powerlevel":3}]
+2020-08-18 17:52:44,621 - core.listener_and_reporting.TestListener -INFO - *** Executed api_01_VerifyListOfHeroes test successfully...
+2020-08-18 17:52:44,671 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_02_VerifyOneHeroDetails...
+2020-08-18 17:52:44,672 - GetOneHeroTest -INFO - Test scenario : Positive - Verifying with passing valid parameter : 
+2020-08-18 17:52:44,819 - GetOneHeroTest -INFO - {"id":"THR","name":"Thor","powerlevel":9}
+2020-08-18 17:52:44,845 - GetOneHeroTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:52:44,846 - core.listener_and_reporting.TestListener -INFO - *** Executed api_02_VerifyOneHeroDetails test successfully...
+2020-08-18 17:52:44,850 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:52:44,851 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st hero_id : 
+2020-08-18 17:52:45,343 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"message":"Yippie! Thor added. At the moment 1 hero waiting to fight."}
+2020-08-18 17:52:45,344 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:52:45,345 - core.listener_and_reporting.TestListener -INFO - *** Executed api_03_VerifyAddingSingleHeroToFight test successfully...
+2020-08-18 17:52:45,346 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:52:45,348 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 1st hero_id parameter : 
+2020-08-18 17:52:45,414 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1001","error":"Thor could not be added because is already in the fight."}
+2020-08-18 17:52:45,415 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:52:45,416 - core.listener_and_reporting.TestListener -INFO - *** Executed api_03_VerifyAddingSingleHeroToFight test successfully...
+2020-08-18 17:52:45,418 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:52:45,419 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying without passing parameter : 
+2020-08-18 17:52:45,618 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 17:52:45,620 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:52:45,621 - core.listener_and_reporting.TestListener -INFO - *** Executed api_03_VerifyAddingSingleHeroToFight test successfully...
+2020-08-18 17:52:45,625 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:52:45,626 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying with passing invalid parameter as "HGFhjh" : 
+2020-08-18 17:52:45,661 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1000","error":"There is no hero with the id [HGFhjh]"}
+2020-08-18 17:52:45,663 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:52:45,664 - core.listener_and_reporting.TestListener -INFO - *** Executed api_03_VerifyAddingSingleHeroToFight test successfully...
+2020-08-18 17:52:45,666 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:52:45,668 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying with passing invalid parameter as "123456" : 
+2020-08-18 17:53:02,273 - core.listener_and_reporting.TestListener -INFO - *** Test Suite Single Hero Fight started ***
+2020-08-18 17:53:02,447 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_01_VerifyListOfHeroes...
+2020-08-18 17:53:06,150 - com.test_classes.ListOfHeroesTest -INFO - [{"id":"THR","name":"Thor","powerlevel":9},{"id":"HLK","name":"Hulk","powerlevel":5},{"id":"CAM","name":"Captain America","powerlevel":8},{"id":"IRM","name":"Iron Man","powerlevel":7},{"id":"BLW","name":"Black Widow","powerlevel":6},{"id":"DRS","name":"Doctor Strange","powerlevel":4},{"id":"VSN","name":"Vision","powerlevel":3}]
+2020-08-18 17:53:06,246 - core.listener_and_reporting.TestListener -INFO - *** Executed api_01_VerifyListOfHeroes test successfully...
+2020-08-18 17:53:06,276 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_02_VerifyOneHeroDetails...
+2020-08-18 17:53:06,278 - GetOneHeroTest -INFO - Test scenario : Positive - Verifying with passing valid parameter : 
+2020-08-18 17:53:06,327 - GetOneHeroTest -INFO - {"id":"THR","name":"Thor","powerlevel":9}
+2020-08-18 17:53:06,356 - GetOneHeroTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:06,358 - core.listener_and_reporting.TestListener -INFO - *** Executed api_02_VerifyOneHeroDetails test successfully...
+2020-08-18 17:53:06,359 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:53:06,360 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st hero_id : 
+2020-08-18 17:53:06,671 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1001","error":"Thor could not be added because is already in the fight."}
+2020-08-18 17:53:06,674 - core.listener_and_reporting.TestListener -INFO - *** Test execution api_03_VerifyAddingSingleHeroToFight failed...
+2020-08-18 17:53:06,690 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:53:06,693 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 1st hero_id parameter : 
+2020-08-18 17:53:06,734 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1001","error":"Thor could not be added because is already in the fight."}
+2020-08-18 17:53:06,735 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:06,736 - core.listener_and_reporting.TestListener -INFO - *** Executed api_03_VerifyAddingSingleHeroToFight test successfully...
+2020-08-18 17:53:06,738 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:53:06,738 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying without passing parameter : 
+2020-08-18 17:53:06,774 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 17:53:06,775 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:06,775 - core.listener_and_reporting.TestListener -INFO - *** Executed api_03_VerifyAddingSingleHeroToFight test successfully...
+2020-08-18 17:53:06,777 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:53:06,778 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying with passing invalid parameter as "HGFhjh" : 
+2020-08-18 17:53:06,806 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1000","error":"There is no hero with the id [HGFhjh]"}
+2020-08-18 17:53:06,807 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:06,808 - core.listener_and_reporting.TestListener -INFO - *** Executed api_03_VerifyAddingSingleHeroToFight test successfully...
+2020-08-18 17:53:06,809 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:53:06,810 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying with passing invalid parameter as "123456" : 
+2020-08-18 17:53:06,861 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1000","error":"There is no hero with the id [123456]"}
+2020-08-18 17:53:06,862 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:06,864 - core.listener_and_reporting.TestListener -INFO - *** Executed api_03_VerifyAddingSingleHeroToFight test successfully...
+2020-08-18 17:53:06,865 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:53:06,866 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying with passing invalid parameter as "Special Character" : 
+2020-08-18 17:53:06,891 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1000","error":"There is no hero with the id [$^&*^*^]"}
+2020-08-18 17:53:06,892 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:06,893 - core.listener_and_reporting.TestListener -INFO - *** Executed api_03_VerifyAddingSingleHeroToFight test successfully...
+2020-08-18 17:53:06,894 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:53:06,895 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying with passing invalid parameter as "Numeric" : 
+2020-08-18 17:53:06,922 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1000","error":"There is no hero with the id [$%YTUJ4546hjk]"}
+2020-08-18 17:53:06,923 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:06,924 - core.listener_and_reporting.TestListener -INFO - *** Executed api_03_VerifyAddingSingleHeroToFight test successfully...
+2020-08-18 17:53:06,927 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_07_VerifyMakeHeroFight...
+2020-08-18 17:53:06,931 - com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -INFO - Test scenario : Negative - Verifying with adding single hero to fight : 
+2020-08-18 17:53:07,134 - com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -INFO - {"errorCode":"1004","error":"You can not start a fight with less than 2 heroes"}
+2020-08-18 17:53:07,134 - com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:07,136 - core.listener_and_reporting.TestListener -INFO - *** Executed api_07_VerifyMakeHeroFight test successfully...
+2020-08-18 17:53:07,152 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_10_VerifyResetFight...
+2020-08-18 17:53:07,154 - com.test_classes.ResetTheFightTest -INFO - Test scenario : Positive - Verifying fight has ben deleted successfully : 
+2020-08-18 17:53:07,249 - com.test_classes.ResetTheFightTest -INFO - {"message":"Fight has been deleted and now all heroes went back to Helicarrier Ship."}
+2020-08-18 17:53:07,250 - com.test_classes.ResetTheFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:07,250 - core.listener_and_reporting.TestListener -INFO - *** Executed api_10_VerifyResetFight test successfully...
+2020-08-18 17:53:07,354 - core.listener_and_reporting.TestListener -INFO - *** Test Suite Single Hero Fight ending ***
+2020-08-18 17:53:08,427 - core.listener_and_reporting.TestListener -INFO - *** Test Suite Make A Fight Between 2 Heroes started ***
+2020-08-18 17:53:08,428 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_01_VerifyListOfHeroes...
+2020-08-18 17:53:08,457 - com.test_classes.ListOfHeroesTest -INFO - [{"id":"THR","name":"Thor","powerlevel":9},{"id":"HLK","name":"Hulk","powerlevel":5},{"id":"CAM","name":"Captain America","powerlevel":8},{"id":"IRM","name":"Iron Man","powerlevel":7},{"id":"BLW","name":"Black Widow","powerlevel":6},{"id":"DRS","name":"Doctor Strange","powerlevel":4},{"id":"VSN","name":"Vision","powerlevel":3}]
+2020-08-18 17:53:08,476 - core.listener_and_reporting.TestListener -INFO - *** Executed api_01_VerifyListOfHeroes test successfully...
+2020-08-18 17:53:08,478 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_02_VerifyOneHeroDetails...
+2020-08-18 17:53:08,480 - GetOneHeroTest -INFO - Test scenario : Positive - Verifying with passing valid parameter : 
+2020-08-18 17:53:08,565 - GetOneHeroTest -INFO - {"id":"THR","name":"Thor","powerlevel":9}
+2020-08-18 17:53:08,591 - GetOneHeroTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:08,592 - core.listener_and_reporting.TestListener -INFO - *** Executed api_02_VerifyOneHeroDetails test successfully...
+2020-08-18 17:53:08,594 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_04_VerifyAddingTwoHeroesToFight...
+2020-08-18 17:53:08,597 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st hero_id : 
+2020-08-18 17:53:08,625 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - {"message":"Yippie! Hulk added. At the moment 1 hero waiting to fight."}
+2020-08-18 17:53:08,625 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:08,626 - core.listener_and_reporting.TestListener -INFO - *** Executed api_04_VerifyAddingTwoHeroesToFight test successfully...
+2020-08-18 17:53:08,627 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_04_VerifyAddingTwoHeroesToFight...
+2020-08-18 17:53:08,628 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 1st hero_id parameter : 
+2020-08-18 17:53:08,646 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - {"errorCode":"1001","error":"Hulk could not be added because is already in the fight."}
+2020-08-18 17:53:08,647 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:08,647 - core.listener_and_reporting.TestListener -INFO - *** Executed api_04_VerifyAddingTwoHeroesToFight test successfully...
+2020-08-18 17:53:08,649 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_04_VerifyAddingTwoHeroesToFight...
+2020-08-18 17:53:08,652 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 2nd hero_id : 
+2020-08-18 17:53:08,680 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - {"message":"Yippie! Captain America added. At the moment 2 heroes waiting to fight."}
+2020-08-18 17:53:08,680 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:08,681 - core.listener_and_reporting.TestListener -INFO - *** Executed api_04_VerifyAddingTwoHeroesToFight test successfully...
+2020-08-18 17:53:08,682 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_04_VerifyAddingTwoHeroesToFight...
+2020-08-18 17:53:08,683 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 2nd hero_id parameter : 
+2020-08-18 17:53:08,701 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - {"errorCode":"1001","error":"Captain America could not be added because is already in the fight."}
+2020-08-18 17:53:08,702 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:08,702 - core.listener_and_reporting.TestListener -INFO - *** Executed api_04_VerifyAddingTwoHeroesToFight test successfully...
+2020-08-18 17:53:08,705 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_08_VerifyMakeHeroFight...
+2020-08-18 17:53:08,706 - com.test_classes.make_them_fight.FightBetweenTwoHeroesTest -INFO - Test scenario : Negative - Verifying with adding 2 heroes to fight : 
+2020-08-18 17:53:08,726 - com.test_classes.make_them_fight.FightBetweenTwoHeroesTest -INFO - {"message":"Heroes fought hard! The winner is Captain America!"}
+2020-08-18 17:53:08,727 - com.test_classes.make_them_fight.FightBetweenTwoHeroesTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:08,727 - core.listener_and_reporting.TestListener -INFO - *** Executed api_08_VerifyMakeHeroFight test successfully...
+2020-08-18 17:53:08,729 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_10_VerifyResetFight...
+2020-08-18 17:53:08,731 - com.test_classes.ResetTheFightTest -INFO - Test scenario : Positive - Verifying fight has ben deleted successfully : 
+2020-08-18 17:53:08,778 - com.test_classes.ResetTheFightTest -INFO - {"message":"Fight has been deleted and now all heroes went back to Helicarrier Ship."}
+2020-08-18 17:53:08,778 - com.test_classes.ResetTheFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:08,779 - core.listener_and_reporting.TestListener -INFO - *** Executed api_10_VerifyResetFight test successfully...
+2020-08-18 17:53:08,788 - core.listener_and_reporting.TestListener -INFO - *** Test Suite Make A Fight Between 2 Heroes ending ***
+2020-08-18 17:53:08,985 - core.listener_and_reporting.TestListener -INFO - *** Test Suite Make A Fight Between 3 Heroes started ***
+2020-08-18 17:53:08,986 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_01_VerifyListOfHeroes...
+2020-08-18 17:53:09,013 - com.test_classes.ListOfHeroesTest -INFO - [{"id":"THR","name":"Thor","powerlevel":9},{"id":"HLK","name":"Hulk","powerlevel":5},{"id":"CAM","name":"Captain America","powerlevel":8},{"id":"IRM","name":"Iron Man","powerlevel":7},{"id":"BLW","name":"Black Widow","powerlevel":6},{"id":"DRS","name":"Doctor Strange","powerlevel":4},{"id":"VSN","name":"Vision","powerlevel":3}]
+2020-08-18 17:53:09,028 - core.listener_and_reporting.TestListener -INFO - *** Executed api_01_VerifyListOfHeroes test successfully...
+2020-08-18 17:53:09,030 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_02_VerifyOneHeroDetails...
+2020-08-18 17:53:09,031 - GetOneHeroTest -INFO - Test scenario : Positive - Verifying with passing valid parameter : 
+2020-08-18 17:53:09,048 - GetOneHeroTest -INFO - {"id":"THR","name":"Thor","powerlevel":9}
+2020-08-18 17:53:09,063 - GetOneHeroTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:09,064 - core.listener_and_reporting.TestListener -INFO - *** Executed api_02_VerifyOneHeroDetails test successfully...
+2020-08-18 17:53:09,066 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_05_VerifyAddingThreeHeroesToFight...
+2020-08-18 17:53:09,067 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st hero_id : 
+2020-08-18 17:53:09,088 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - {"message":"Yippie! Iron Man added. At the moment 1 hero waiting to fight."}
+2020-08-18 17:53:09,088 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:09,089 - core.listener_and_reporting.TestListener -INFO - *** Executed api_05_VerifyAddingThreeHeroesToFight test successfully...
+2020-08-18 17:53:09,090 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_05_VerifyAddingThreeHeroesToFight...
+2020-08-18 17:53:09,091 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 1st hero_id parameter : 
+2020-08-18 17:53:09,109 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Iron Man could not be added because is already in the fight."}
+2020-08-18 17:53:09,109 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:09,110 - core.listener_and_reporting.TestListener -INFO - *** Executed api_05_VerifyAddingThreeHeroesToFight test successfully...
+2020-08-18 17:53:09,111 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_05_VerifyAddingThreeHeroesToFight...
+2020-08-18 17:53:09,112 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 2nd hero_id : 
+2020-08-18 17:53:09,140 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - {"message":"Yippie! Black Widow added. At the moment 2 heroes waiting to fight."}
+2020-08-18 17:53:09,140 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:09,141 - core.listener_and_reporting.TestListener -INFO - *** Executed api_05_VerifyAddingThreeHeroesToFight test successfully...
+2020-08-18 17:53:09,142 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_05_VerifyAddingThreeHeroesToFight...
+2020-08-18 17:53:09,143 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 2nd hero_id parameter : 
+2020-08-18 17:53:09,162 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Black Widow could not be added because is already in the fight."}
+2020-08-18 17:53:09,163 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:09,163 - core.listener_and_reporting.TestListener -INFO - *** Executed api_05_VerifyAddingThreeHeroesToFight test successfully...
+2020-08-18 17:53:09,165 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_05_VerifyAddingThreeHeroesToFight...
+2020-08-18 17:53:09,166 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 3rd hero_id : 
+2020-08-18 17:53:09,186 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - {"message":"Yippie! Doctor Strange added. At the moment 3 heroes waiting to fight."}
+2020-08-18 17:53:09,186 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:09,187 - core.listener_and_reporting.TestListener -INFO - *** Executed api_05_VerifyAddingThreeHeroesToFight test successfully...
+2020-08-18 17:53:09,188 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_05_VerifyAddingThreeHeroesToFight...
+2020-08-18 17:53:09,189 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 3rd hero_id parameter : 
+2020-08-18 17:53:09,206 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Doctor Strange could not be added because is already in the fight."}
+2020-08-18 17:53:09,207 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:09,207 - core.listener_and_reporting.TestListener -INFO - *** Executed api_05_VerifyAddingThreeHeroesToFight test successfully...
+2020-08-18 17:53:09,210 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_09_VerifyMakeHeroFight...
+2020-08-18 17:53:09,211 - com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -INFO - Test scenario : Negative - Verifying with adding more than 2 heroes to fight : 
+2020-08-18 17:53:09,229 - com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -INFO - {"message":"Heroes fought hard! The winner is Doctor Strange!"}
+2020-08-18 17:53:09,230 - core.listener_and_reporting.TestListener -INFO - *** Test execution api_09_VerifyMakeHeroFight failed...
+2020-08-18 17:53:09,232 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_10_VerifyResetFight...
+2020-08-18 17:53:09,233 - com.test_classes.ResetTheFightTest -INFO - Test scenario : Positive - Verifying fight has ben deleted successfully : 
+2020-08-18 17:53:09,250 - com.test_classes.ResetTheFightTest -INFO - {"message":"Fight has been deleted and now all heroes went back to Helicarrier Ship."}
+2020-08-18 17:53:09,250 - com.test_classes.ResetTheFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:09,251 - core.listener_and_reporting.TestListener -INFO - *** Executed api_10_VerifyResetFight test successfully...
+2020-08-18 17:53:09,266 - core.listener_and_reporting.TestListener -INFO - *** Test Suite Make A Fight Between 3 Heroes ending ***
+2020-08-18 17:53:09,566 - core.listener_and_reporting.TestListener -INFO - *** Test Suite Make A Fight Between 4 Heroes started ***
+2020-08-18 17:53:09,568 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_01_VerifyListOfHeroes...
+2020-08-18 17:53:09,586 - com.test_classes.ListOfHeroesTest -INFO - [{"id":"THR","name":"Thor","powerlevel":9},{"id":"HLK","name":"Hulk","powerlevel":5},{"id":"CAM","name":"Captain America","powerlevel":8},{"id":"IRM","name":"Iron Man","powerlevel":7},{"id":"BLW","name":"Black Widow","powerlevel":6},{"id":"DRS","name":"Doctor Strange","powerlevel":4},{"id":"VSN","name":"Vision","powerlevel":3}]
+2020-08-18 17:53:09,599 - core.listener_and_reporting.TestListener -INFO - *** Executed api_01_VerifyListOfHeroes test successfully...
+2020-08-18 17:53:09,601 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_02_VerifyOneHeroDetails...
+2020-08-18 17:53:09,602 - GetOneHeroTest -INFO - Test scenario : Positive - Verifying with passing valid parameter : 
+2020-08-18 17:53:09,618 - GetOneHeroTest -INFO - {"id":"THR","name":"Thor","powerlevel":9}
+2020-08-18 17:53:09,671 - GetOneHeroTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:09,672 - core.listener_and_reporting.TestListener -INFO - *** Executed api_02_VerifyOneHeroDetails test successfully...
+2020-08-18 17:53:09,674 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_06_VerifyAddingMoreThanThreeHeroesToFight...
+2020-08-18 17:53:09,675 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st hero_id : 
+2020-08-18 17:53:09,725 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"message":"Yippie! Iron Man added. At the moment 1 hero waiting to fight."}
+2020-08-18 17:53:09,725 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:09,726 - core.listener_and_reporting.TestListener -INFO - *** Executed api_06_VerifyAddingMoreThanThreeHeroesToFight test successfully...
+2020-08-18 17:53:09,727 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_06_VerifyAddingMoreThanThreeHeroesToFight...
+2020-08-18 17:53:09,728 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 1st hero_id parameter : 
+2020-08-18 17:53:09,746 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Iron Man could not be added because is already in the fight."}
+2020-08-18 17:53:09,746 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:09,747 - core.listener_and_reporting.TestListener -INFO - *** Executed api_06_VerifyAddingMoreThanThreeHeroesToFight test successfully...
+2020-08-18 17:53:09,747 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_06_VerifyAddingMoreThanThreeHeroesToFight...
+2020-08-18 17:53:09,748 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 2nd hero_id : 
+2020-08-18 17:53:09,779 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"message":"Yippie! Black Widow added. At the moment 2 heroes waiting to fight."}
+2020-08-18 17:53:09,779 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:09,779 - core.listener_and_reporting.TestListener -INFO - *** Executed api_06_VerifyAddingMoreThanThreeHeroesToFight test successfully...
+2020-08-18 17:53:09,780 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_06_VerifyAddingMoreThanThreeHeroesToFight...
+2020-08-18 17:53:09,781 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 2nd hero_id parameter : 
+2020-08-18 17:53:09,800 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Black Widow could not be added because is already in the fight."}
+2020-08-18 17:53:09,801 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:09,802 - core.listener_and_reporting.TestListener -INFO - *** Executed api_06_VerifyAddingMoreThanThreeHeroesToFight test successfully...
+2020-08-18 17:53:09,803 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_06_VerifyAddingMoreThanThreeHeroesToFight...
+2020-08-18 17:53:09,803 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 3rd hero_id : 
+2020-08-18 17:53:09,856 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"message":"Yippie! Doctor Strange added. At the moment 3 heroes waiting to fight."}
+2020-08-18 17:53:09,856 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:09,857 - core.listener_and_reporting.TestListener -INFO - *** Executed api_06_VerifyAddingMoreThanThreeHeroesToFight test successfully...
+2020-08-18 17:53:09,858 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_06_VerifyAddingMoreThanThreeHeroesToFight...
+2020-08-18 17:53:09,859 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 3rd hero_id parameter : 
+2020-08-18 17:53:09,878 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Doctor Strange could not be added because is already in the fight."}
+2020-08-18 17:53:09,879 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:09,879 - core.listener_and_reporting.TestListener -INFO - *** Executed api_06_VerifyAddingMoreThanThreeHeroesToFight test successfully...
+2020-08-18 17:53:09,880 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_06_VerifyAddingMoreThanThreeHeroesToFight...
+2020-08-18 17:53:09,881 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing valid parameter for 4rd hero_id : 
+2020-08-18 17:53:09,898 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1003","error":"A maximum of 3 heroes are allowed per fight."}
+2020-08-18 17:53:09,898 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:09,899 - core.listener_and_reporting.TestListener -INFO - *** Executed api_06_VerifyAddingMoreThanThreeHeroesToFight test successfully...
+2020-08-18 17:53:09,900 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_09_VerifyMakeHeroFight...
+2020-08-18 17:53:09,901 - com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -INFO - Test scenario : Negative - Verifying with adding more than 2 heroes to fight : 
+2020-08-18 17:53:09,911 - com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -INFO - {"message":"Heroes fought hard! The winner is Doctor Strange!"}
+2020-08-18 17:53:09,912 - core.listener_and_reporting.TestListener -INFO - *** Test execution api_09_VerifyMakeHeroFight failed...
+2020-08-18 17:53:09,913 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_10_VerifyResetFight...
+2020-08-18 17:53:09,914 - com.test_classes.ResetTheFightTest -INFO - Test scenario : Positive - Verifying fight has ben deleted successfully : 
+2020-08-18 17:53:09,925 - com.test_classes.ResetTheFightTest -INFO - {"message":"Fight has been deleted and now all heroes went back to Helicarrier Ship."}
+2020-08-18 17:53:09,925 - com.test_classes.ResetTheFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:53:09,926 - core.listener_and_reporting.TestListener -INFO - *** Executed api_10_VerifyResetFight test successfully...
+2020-08-18 17:53:09,939 - core.listener_and_reporting.TestListener -INFO - *** Test Suite Make A Fight Between 4 Heroes ending ***
+2020-08-18 17:57:10,260 - core.listener_and_reporting.TestListener -INFO - *** Test Suite Single Hero Fight started ***
+2020-08-18 17:57:10,351 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_01_VerifyListOfHeroes...
+2020-08-18 17:57:13,425 - com.test_classes.ListOfHeroesTest -INFO - [{"id":"THR","name":"Thor","powerlevel":9},{"id":"HLK","name":"Hulk","powerlevel":5},{"id":"CAM","name":"Captain America","powerlevel":8},{"id":"IRM","name":"Iron Man","powerlevel":7},{"id":"BLW","name":"Black Widow","powerlevel":6},{"id":"DRS","name":"Doctor Strange","powerlevel":4},{"id":"VSN","name":"Vision","powerlevel":3}]
+2020-08-18 17:57:13,467 - core.listener_and_reporting.TestListener -INFO - *** Executed api_01_VerifyListOfHeroes test successfully...
+2020-08-18 17:57:13,490 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_02_VerifyOneHeroDetails...
+2020-08-18 17:57:13,491 - GetOneHeroTest -INFO - Test scenario : Positive - Verifying with passing valid parameter : 
+2020-08-18 17:57:13,534 - GetOneHeroTest -INFO - {"id":"THR","name":"Thor","powerlevel":9}
+2020-08-18 17:57:13,572 - GetOneHeroTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:13,574 - core.listener_and_reporting.TestListener -INFO - *** Executed api_02_VerifyOneHeroDetails test successfully...
+2020-08-18 17:57:13,578 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:57:13,580 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st hero_id : 
+2020-08-18 17:57:13,900 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"message":"Yippie! Thor added. At the moment 1 hero waiting to fight."}
+2020-08-18 17:57:13,901 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:13,902 - core.listener_and_reporting.TestListener -INFO - *** Executed api_03_VerifyAddingSingleHeroToFight test successfully...
+2020-08-18 17:57:13,906 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:57:13,907 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 1st hero_id parameter : 
+2020-08-18 17:57:13,937 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1001","error":"Thor could not be added because is already in the fight."}
+2020-08-18 17:57:13,937 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:13,938 - core.listener_and_reporting.TestListener -INFO - *** Executed api_03_VerifyAddingSingleHeroToFight test successfully...
+2020-08-18 17:57:13,939 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:57:13,940 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying without passing parameter : 
+2020-08-18 17:57:13,966 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1002","error":"Hero ID must be passed on the POST request"}
+2020-08-18 17:57:13,967 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:13,968 - core.listener_and_reporting.TestListener -INFO - *** Executed api_03_VerifyAddingSingleHeroToFight test successfully...
+2020-08-18 17:57:13,969 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:57:13,970 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying with passing invalid parameter as "HGFhjh" : 
+2020-08-18 17:57:13,995 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1000","error":"There is no hero with the id [HGFhjh]"}
+2020-08-18 17:57:13,996 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:13,997 - core.listener_and_reporting.TestListener -INFO - *** Executed api_03_VerifyAddingSingleHeroToFight test successfully...
+2020-08-18 17:57:13,998 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:57:13,999 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying with passing invalid parameter as "123456" : 
+2020-08-18 17:57:14,035 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1000","error":"There is no hero with the id [123456]"}
+2020-08-18 17:57:14,036 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:14,037 - core.listener_and_reporting.TestListener -INFO - *** Executed api_03_VerifyAddingSingleHeroToFight test successfully...
+2020-08-18 17:57:14,038 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:57:14,039 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying with passing invalid parameter as "Special Character" : 
+2020-08-18 17:57:14,088 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1000","error":"There is no hero with the id [$^&*^*^]"}
+2020-08-18 17:57:14,089 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:14,090 - core.listener_and_reporting.TestListener -INFO - *** Executed api_03_VerifyAddingSingleHeroToFight test successfully...
+2020-08-18 17:57:14,091 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_03_VerifyAddingSingleHeroToFight...
+2020-08-18 17:57:14,092 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - Test scenario : Negative - Verifying with passing invalid parameter as "Numeric" : 
+2020-08-18 17:57:14,175 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - {"errorCode":"1000","error":"There is no hero with the id [$%YTUJ4546hjk]"}
+2020-08-18 17:57:14,177 - com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:14,179 - core.listener_and_reporting.TestListener -INFO - *** Executed api_03_VerifyAddingSingleHeroToFight test successfully...
+2020-08-18 17:57:14,187 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_07_VerifyMakeHeroFight...
+2020-08-18 17:57:14,188 - com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -INFO - Test scenario : Negative - Verifying with adding single hero to fight : 
+2020-08-18 17:57:14,239 - com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -INFO - {"errorCode":"1004","error":"You can not start a fight with less than 2 heroes"}
+2020-08-18 17:57:14,239 - com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:14,239 - core.listener_and_reporting.TestListener -INFO - *** Executed api_07_VerifyMakeHeroFight test successfully...
+2020-08-18 17:57:14,242 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_10_VerifyResetFight...
+2020-08-18 17:57:14,242 - com.test_classes.ResetTheFightTest -INFO - Test scenario : Positive - Verifying fight has ben deleted successfully : 
+2020-08-18 17:57:14,287 - com.test_classes.ResetTheFightTest -INFO - {"message":"Fight has been deleted and now all heroes went back to Helicarrier Ship."}
+2020-08-18 17:57:14,288 - com.test_classes.ResetTheFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:14,289 - core.listener_and_reporting.TestListener -INFO - *** Executed api_10_VerifyResetFight test successfully...
+2020-08-18 17:57:14,334 - core.listener_and_reporting.TestListener -INFO - *** Test Suite Single Hero Fight ending ***
+2020-08-18 17:57:14,950 - core.listener_and_reporting.TestListener -INFO - *** Test Suite Make A Fight Between 2 Heroes started ***
+2020-08-18 17:57:14,951 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_01_VerifyListOfHeroes...
+2020-08-18 17:57:14,974 - com.test_classes.ListOfHeroesTest -INFO - [{"id":"THR","name":"Thor","powerlevel":9},{"id":"HLK","name":"Hulk","powerlevel":5},{"id":"CAM","name":"Captain America","powerlevel":8},{"id":"IRM","name":"Iron Man","powerlevel":7},{"id":"BLW","name":"Black Widow","powerlevel":6},{"id":"DRS","name":"Doctor Strange","powerlevel":4},{"id":"VSN","name":"Vision","powerlevel":3}]
+2020-08-18 17:57:14,993 - core.listener_and_reporting.TestListener -INFO - *** Executed api_01_VerifyListOfHeroes test successfully...
+2020-08-18 17:57:14,998 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_02_VerifyOneHeroDetails...
+2020-08-18 17:57:15,000 - GetOneHeroTest -INFO - Test scenario : Positive - Verifying with passing valid parameter : 
+2020-08-18 17:57:15,055 - GetOneHeroTest -INFO - {"id":"THR","name":"Thor","powerlevel":9}
+2020-08-18 17:57:15,077 - GetOneHeroTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:15,078 - core.listener_and_reporting.TestListener -INFO - *** Executed api_02_VerifyOneHeroDetails test successfully...
+2020-08-18 17:57:15,081 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_04_VerifyAddingTwoHeroesToFight...
+2020-08-18 17:57:15,082 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st hero_id : 
+2020-08-18 17:57:15,102 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - {"message":"Yippie! Hulk added. At the moment 1 hero waiting to fight."}
+2020-08-18 17:57:15,102 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:15,103 - core.listener_and_reporting.TestListener -INFO - *** Executed api_04_VerifyAddingTwoHeroesToFight test successfully...
+2020-08-18 17:57:15,104 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_04_VerifyAddingTwoHeroesToFight...
+2020-08-18 17:57:15,108 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 1st hero_id parameter : 
+2020-08-18 17:57:15,128 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - {"errorCode":"1001","error":"Hulk could not be added because is already in the fight."}
+2020-08-18 17:57:15,129 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:15,129 - core.listener_and_reporting.TestListener -INFO - *** Executed api_04_VerifyAddingTwoHeroesToFight test successfully...
+2020-08-18 17:57:15,130 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_04_VerifyAddingTwoHeroesToFight...
+2020-08-18 17:57:15,132 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 2nd hero_id : 
+2020-08-18 17:57:15,157 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - {"message":"Yippie! Captain America added. At the moment 2 heroes waiting to fight."}
+2020-08-18 17:57:15,158 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:15,159 - core.listener_and_reporting.TestListener -INFO - *** Executed api_04_VerifyAddingTwoHeroesToFight test successfully...
+2020-08-18 17:57:15,160 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_04_VerifyAddingTwoHeroesToFight...
+2020-08-18 17:57:15,161 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 2nd hero_id parameter : 
+2020-08-18 17:57:15,179 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - {"errorCode":"1001","error":"Captain America could not be added because is already in the fight."}
+2020-08-18 17:57:15,180 - com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:15,181 - core.listener_and_reporting.TestListener -INFO - *** Executed api_04_VerifyAddingTwoHeroesToFight test successfully...
+2020-08-18 17:57:15,183 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_08_VerifyMakeHeroFight...
+2020-08-18 17:57:15,184 - com.test_classes.make_them_fight.FightBetweenTwoHeroesTest -INFO - Test scenario : Negative - Verifying with adding 2 heroes to fight : 
+2020-08-18 17:57:15,209 - com.test_classes.make_them_fight.FightBetweenTwoHeroesTest -INFO - {"message":"Heroes fought hard! The winner is Captain America!"}
+2020-08-18 17:57:15,209 - com.test_classes.make_them_fight.FightBetweenTwoHeroesTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:15,210 - core.listener_and_reporting.TestListener -INFO - *** Executed api_08_VerifyMakeHeroFight test successfully...
+2020-08-18 17:57:15,213 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_10_VerifyResetFight...
+2020-08-18 17:57:15,215 - com.test_classes.ResetTheFightTest -INFO - Test scenario : Positive - Verifying fight has ben deleted successfully : 
+2020-08-18 17:57:15,382 - com.test_classes.ResetTheFightTest -INFO - {"message":"Fight has been deleted and now all heroes went back to Helicarrier Ship."}
+2020-08-18 17:57:15,382 - com.test_classes.ResetTheFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:15,391 - core.listener_and_reporting.TestListener -INFO - *** Executed api_10_VerifyResetFight test successfully...
+2020-08-18 17:57:15,422 - core.listener_and_reporting.TestListener -INFO - *** Test Suite Make A Fight Between 2 Heroes ending ***
+2020-08-18 17:57:15,594 - core.listener_and_reporting.TestListener -INFO - *** Test Suite Make A Fight Between 3 Heroes started ***
+2020-08-18 17:57:15,595 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_01_VerifyListOfHeroes...
+2020-08-18 17:57:15,612 - com.test_classes.ListOfHeroesTest -INFO - [{"id":"THR","name":"Thor","powerlevel":9},{"id":"HLK","name":"Hulk","powerlevel":5},{"id":"CAM","name":"Captain America","powerlevel":8},{"id":"IRM","name":"Iron Man","powerlevel":7},{"id":"BLW","name":"Black Widow","powerlevel":6},{"id":"DRS","name":"Doctor Strange","powerlevel":4},{"id":"VSN","name":"Vision","powerlevel":3}]
+2020-08-18 17:57:15,623 - core.listener_and_reporting.TestListener -INFO - *** Executed api_01_VerifyListOfHeroes test successfully...
+2020-08-18 17:57:15,624 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_02_VerifyOneHeroDetails...
+2020-08-18 17:57:15,625 - GetOneHeroTest -INFO - Test scenario : Positive - Verifying with passing valid parameter : 
+2020-08-18 17:57:15,643 - GetOneHeroTest -INFO - {"id":"THR","name":"Thor","powerlevel":9}
+2020-08-18 17:57:15,657 - GetOneHeroTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:15,658 - core.listener_and_reporting.TestListener -INFO - *** Executed api_02_VerifyOneHeroDetails test successfully...
+2020-08-18 17:57:15,665 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_05_VerifyAddingThreeHeroesToFight...
+2020-08-18 17:57:15,666 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st hero_id : 
+2020-08-18 17:57:15,708 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - {"message":"Yippie! Iron Man added. At the moment 1 hero waiting to fight."}
+2020-08-18 17:57:15,708 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:15,709 - core.listener_and_reporting.TestListener -INFO - *** Executed api_05_VerifyAddingThreeHeroesToFight test successfully...
+2020-08-18 17:57:15,710 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_05_VerifyAddingThreeHeroesToFight...
+2020-08-18 17:57:15,711 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 1st hero_id parameter : 
+2020-08-18 17:57:15,730 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Iron Man could not be added because is already in the fight."}
+2020-08-18 17:57:15,730 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:15,731 - core.listener_and_reporting.TestListener -INFO - *** Executed api_05_VerifyAddingThreeHeroesToFight test successfully...
+2020-08-18 17:57:15,732 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_05_VerifyAddingThreeHeroesToFight...
+2020-08-18 17:57:15,733 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 2nd hero_id : 
+2020-08-18 17:57:15,753 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - {"message":"Yippie! Black Widow added. At the moment 2 heroes waiting to fight."}
+2020-08-18 17:57:15,754 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:15,755 - core.listener_and_reporting.TestListener -INFO - *** Executed api_05_VerifyAddingThreeHeroesToFight test successfully...
+2020-08-18 17:57:15,757 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_05_VerifyAddingThreeHeroesToFight...
+2020-08-18 17:57:15,758 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 2nd hero_id parameter : 
+2020-08-18 17:57:15,775 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Black Widow could not be added because is already in the fight."}
+2020-08-18 17:57:15,775 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:15,776 - core.listener_and_reporting.TestListener -INFO - *** Executed api_05_VerifyAddingThreeHeroesToFight test successfully...
+2020-08-18 17:57:15,777 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_05_VerifyAddingThreeHeroesToFight...
+2020-08-18 17:57:15,778 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 3rd hero_id : 
+2020-08-18 17:57:15,795 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - {"message":"Yippie! Doctor Strange added. At the moment 3 heroes waiting to fight."}
+2020-08-18 17:57:15,796 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:15,796 - core.listener_and_reporting.TestListener -INFO - *** Executed api_05_VerifyAddingThreeHeroesToFight test successfully...
+2020-08-18 17:57:15,797 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_05_VerifyAddingThreeHeroesToFight...
+2020-08-18 17:57:15,798 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 3rd hero_id parameter : 
+2020-08-18 17:57:15,821 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Doctor Strange could not be added because is already in the fight."}
+2020-08-18 17:57:15,821 - com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:15,822 - core.listener_and_reporting.TestListener -INFO - *** Executed api_05_VerifyAddingThreeHeroesToFight test successfully...
+2020-08-18 17:57:15,824 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_09_VerifyMakeHeroFight...
+2020-08-18 17:57:15,825 - com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -INFO - Test scenario : Negative - Verifying with adding more than 2 heroes to fight : 
+2020-08-18 17:57:15,840 - com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -INFO - {"message":"Heroes fought hard! The winner is Doctor Strange!"}
+2020-08-18 17:57:15,841 - com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:15,842 - core.listener_and_reporting.TestListener -INFO - *** Executed api_09_VerifyMakeHeroFight test successfully...
+2020-08-18 17:57:15,845 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_10_VerifyResetFight...
+2020-08-18 17:57:15,845 - com.test_classes.ResetTheFightTest -INFO - Test scenario : Positive - Verifying fight has ben deleted successfully : 
+2020-08-18 17:57:15,860 - com.test_classes.ResetTheFightTest -INFO - {"message":"Fight has been deleted and now all heroes went back to Helicarrier Ship."}
+2020-08-18 17:57:15,861 - com.test_classes.ResetTheFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:15,861 - core.listener_and_reporting.TestListener -INFO - *** Executed api_10_VerifyResetFight test successfully...
+2020-08-18 17:57:15,872 - core.listener_and_reporting.TestListener -INFO - *** Test Suite Make A Fight Between 3 Heroes ending ***
+2020-08-18 17:57:16,018 - core.listener_and_reporting.TestListener -INFO - *** Test Suite Make A Fight Between 4 Heroes started ***
+2020-08-18 17:57:16,019 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_01_VerifyListOfHeroes...
+2020-08-18 17:57:16,034 - com.test_classes.ListOfHeroesTest -INFO - [{"id":"THR","name":"Thor","powerlevel":9},{"id":"HLK","name":"Hulk","powerlevel":5},{"id":"CAM","name":"Captain America","powerlevel":8},{"id":"IRM","name":"Iron Man","powerlevel":7},{"id":"BLW","name":"Black Widow","powerlevel":6},{"id":"DRS","name":"Doctor Strange","powerlevel":4},{"id":"VSN","name":"Vision","powerlevel":3}]
+2020-08-18 17:57:16,044 - core.listener_and_reporting.TestListener -INFO - *** Executed api_01_VerifyListOfHeroes test successfully...
+2020-08-18 17:57:16,046 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_02_VerifyOneHeroDetails...
+2020-08-18 17:57:16,046 - GetOneHeroTest -INFO - Test scenario : Positive - Verifying with passing valid parameter : 
+2020-08-18 17:57:16,060 - GetOneHeroTest -INFO - {"id":"THR","name":"Thor","powerlevel":9}
+2020-08-18 17:57:16,072 - GetOneHeroTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:16,073 - core.listener_and_reporting.TestListener -INFO - *** Executed api_02_VerifyOneHeroDetails test successfully...
+2020-08-18 17:57:16,075 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_06_VerifyAddingMoreThanThreeHeroesToFight...
+2020-08-18 17:57:16,076 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 1st hero_id : 
+2020-08-18 17:57:16,095 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"message":"Yippie! Iron Man added. At the moment 1 hero waiting to fight."}
+2020-08-18 17:57:16,095 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:16,096 - core.listener_and_reporting.TestListener -INFO - *** Executed api_06_VerifyAddingMoreThanThreeHeroesToFight test successfully...
+2020-08-18 17:57:16,096 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_06_VerifyAddingMoreThanThreeHeroesToFight...
+2020-08-18 17:57:16,097 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 1st hero_id parameter : 
+2020-08-18 17:57:16,114 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Iron Man could not be added because is already in the fight."}
+2020-08-18 17:57:16,114 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:16,115 - core.listener_and_reporting.TestListener -INFO - *** Executed api_06_VerifyAddingMoreThanThreeHeroesToFight test successfully...
+2020-08-18 17:57:16,116 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_06_VerifyAddingMoreThanThreeHeroesToFight...
+2020-08-18 17:57:16,117 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 2nd hero_id : 
+2020-08-18 17:57:16,135 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"message":"Yippie! Black Widow added. At the moment 2 heroes waiting to fight."}
+2020-08-18 17:57:16,135 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:16,136 - core.listener_and_reporting.TestListener -INFO - *** Executed api_06_VerifyAddingMoreThanThreeHeroesToFight test successfully...
+2020-08-18 17:57:16,137 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_06_VerifyAddingMoreThanThreeHeroesToFight...
+2020-08-18 17:57:16,138 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 2nd hero_id parameter : 
+2020-08-18 17:57:16,158 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Black Widow could not be added because is already in the fight."}
+2020-08-18 17:57:16,158 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:16,159 - core.listener_and_reporting.TestListener -INFO - *** Executed api_06_VerifyAddingMoreThanThreeHeroesToFight test successfully...
+2020-08-18 17:57:16,160 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_06_VerifyAddingMoreThanThreeHeroesToFight...
+2020-08-18 17:57:16,160 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Positive - Verifying with passing valid parameter for 3rd hero_id : 
+2020-08-18 17:57:16,177 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"message":"Yippie! Doctor Strange added. At the moment 3 heroes waiting to fight."}
+2020-08-18 17:57:16,177 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:16,178 - core.listener_and_reporting.TestListener -INFO - *** Executed api_06_VerifyAddingMoreThanThreeHeroesToFight test successfully...
+2020-08-18 17:57:16,178 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_06_VerifyAddingMoreThanThreeHeroesToFight...
+2020-08-18 17:57:16,179 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing same as 3rd hero_id parameter : 
+2020-08-18 17:57:16,199 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1001","error":"Doctor Strange could not be added because is already in the fight."}
+2020-08-18 17:57:16,199 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:16,200 - core.listener_and_reporting.TestListener -INFO - *** Executed api_06_VerifyAddingMoreThanThreeHeroesToFight test successfully...
+2020-08-18 17:57:16,200 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_06_VerifyAddingMoreThanThreeHeroesToFight...
+2020-08-18 17:57:16,201 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - Test scenario : Negative - Verifying with passing valid parameter for 4rd hero_id : 
+2020-08-18 17:57:16,215 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - {"errorCode":"1003","error":"A maximum of 3 heroes are allowed per fight."}
+2020-08-18 17:57:16,215 - com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:16,216 - core.listener_and_reporting.TestListener -INFO - *** Executed api_06_VerifyAddingMoreThanThreeHeroesToFight test successfully...
+2020-08-18 17:57:16,217 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_09_VerifyMakeHeroFight...
+2020-08-18 17:57:16,218 - com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -INFO - Test scenario : Negative - Verifying with adding more than 2 heroes to fight : 
+2020-08-18 17:57:16,227 - com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -INFO - {"message":"Heroes fought hard! The winner is Doctor Strange!"}
+2020-08-18 17:57:16,228 - com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:16,228 - core.listener_and_reporting.TestListener -INFO - *** Executed api_09_VerifyMakeHeroFight test successfully...
+2020-08-18 17:57:16,229 - core.listener_and_reporting.TestListener -INFO - *** Running test method api_10_VerifyResetFight...
+2020-08-18 17:57:16,230 - com.test_classes.ResetTheFightTest -INFO - Test scenario : Positive - Verifying fight has ben deleted successfully : 
+2020-08-18 17:57:16,242 - com.test_classes.ResetTheFightTest -INFO - {"message":"Fight has been deleted and now all heroes went back to Helicarrier Ship."}
+2020-08-18 17:57:16,242 - com.test_classes.ResetTheFightTest -INFO - *************** Test Executed Successfully ***************
+2020-08-18 17:57:16,243 - core.listener_and_reporting.TestListener -INFO - *** Executed api_10_VerifyResetFight test successfully...
+2020-08-18 17:57:16,253 - core.listener_and_reporting.TestListener -INFO - *** Test Suite Make A Fight Between 4 Heroes ending ***
+2020-08-18 18:56:45,857 - com.test_classes.ListOfHeroesTest -INFO - THR
+2020-08-18 18:56:45,917 - com.test_classes.ListOfHeroesTest -INFO - Fetching 1st Hero Id : THR
+2020-08-18 18:56:46,023 - com.test_classes.ListOfHeroesTest -INFO - HLK
+2020-08-18 18:56:46,024 - com.test_classes.ListOfHeroesTest -INFO - Fetching 2nd Hero Id : HLK
+2020-08-18 18:56:46,104 - com.test_classes.ListOfHeroesTest -INFO - Passing the "heroId1" for fetching the given Hero response
+2020-08-18 18:56:46,219 - com.test_classes.ListOfHeroesTest -INFO - io.restassured.internal.RestAssuredResponseImpl@2a7b6f69
+2020-08-18 18:56:46,246 - com.test_classes.ListOfHeroesTest -INFO - Adding "heroId1" to fight
+2020-08-18 18:56:47,180 - com.test_classes.ListOfHeroesTest -INFO - io.restassured.internal.RestAssuredResponseImpl@537b32ef
+2020-08-18 18:59:39,114 - com.test_classes.ListOfHeroesTest -INFO - Fetching 1st Hero Id : THR
+2020-08-18 18:59:39,275 - com.test_classes.ListOfHeroesTest -INFO - Fetching 2nd Hero Id : HLK
+2020-08-18 18:59:39,355 - com.test_classes.ListOfHeroesTest -INFO - Passing the "heroId1" for fetching the given Hero response
+2020-08-18 18:59:39,493 - com.test_classes.ListOfHeroesTest -INFO - Adding "heroId1" to fight
+2020-08-18 19:03:53,085 - com.test_classes.ListOfHeroesTest -INFO - Fetching 1st Hero Id : THR
+2020-08-18 19:03:53,270 - com.test_classes.ListOfHeroesTest -INFO - Fetching 2nd Hero Id : HLK
+2020-08-18 19:03:53,374 - com.test_classes.ListOfHeroesTest -INFO - Passing the "heroId1" for fetching the given Hero response
+2020-08-18 19:03:53,485 - com.test_classes.ListOfHeroesTest -INFO - Adding "heroId1" to fight
+2020-08-18 19:05:07,454 - com.test_classes.ListOfHeroesTest -INFO - Fetching 1st Hero Id : THR
+2020-08-18 19:05:07,676 - com.test_classes.ListOfHeroesTest -INFO - Fetching 2nd Hero Id : HLK
+2020-08-18 19:05:07,736 - com.test_classes.ListOfHeroesTest -INFO - Passing the "heroId1" for fetching the given Hero response
+2020-08-18 19:05:08,031 - com.test_classes.ListOfHeroesTest -INFO - Adding "heroId1" to fight
+2020-08-18 19:07:02,602 - com.test_classes.ListOfHeroesTest -INFO - Fetching 1st Hero Id : THR
+2020-08-18 19:07:02,706 - com.test_classes.ListOfHeroesTest -INFO - Fetching 2nd Hero Id : HLK
+2020-08-18 19:07:02,707 - com.test_classes.ListOfHeroesTest -INFO - Passing the "heroId1" for fetching the given Hero response
+2020-08-18 19:07:02,769 - com.test_classes.ListOfHeroesTest -INFO - Adding "heroId1" to fight
+2020-08-18 19:07:03,293 - com.test_classes.ListOfHeroesTest -INFO - Passing the "heroId2" for fetching the given Hero response
+2020-08-18 19:07:03,313 - com.test_classes.ListOfHeroesTest -INFO - io.restassured.internal.RestAssuredResponseImpl@1ce93c18
+2020-08-18 19:07:03,314 - com.test_classes.ListOfHeroesTest -INFO - Adding "heroId2" to fight
+2020-08-18 19:07:03,350 - com.test_classes.ListOfHeroesTest -INFO - io.restassured.internal.RestAssuredResponseImpl@7dc51783
+2020-08-18 19:07:03,352 - com.test_classes.ListOfHeroesTest -INFO - Making them fight
+2020-08-18 19:07:03,384 - com.test_classes.ListOfHeroesTest -INFO - io.restassured.internal.RestAssuredResponseImpl@4aeaadc1
+2020-08-18 19:07:03,386 - com.test_classes.ListOfHeroesTest -INFO - Resetting the fight result
+2020-08-18 19:07:03,674 - com.test_classes.ListOfHeroesTest -INFO - io.restassured.internal.RestAssuredResponseImpl@7dcc91fd
+2020-08-18 19:10:41,778 - com.test_classes.ListOfHeroesTest -INFO - Fetching 1st Hero Id : THR
+2020-08-18 19:10:41,971 - com.test_classes.ListOfHeroesTest -INFO - Fetching 2nd Hero Id : HLK
+2020-08-18 19:10:41,984 - com.test_classes.ListOfHeroesTest -INFO - Passing the "heroId1" for fetching the given Hero response
+2020-08-18 19:10:42,145 - com.test_classes.ListOfHeroesTest -INFO - Adding "heroId1" to fight
+2020-08-18 19:10:42,772 - com.test_classes.ListOfHeroesTest -INFO - Passing the "heroId2" for fetching the given Hero response
+2020-08-18 19:10:42,809 - com.test_classes.ListOfHeroesTest -INFO - Adding "heroId2" to fight
+2020-08-18 19:10:42,963 - com.test_classes.ListOfHeroesTest -INFO - Making them fight
+2020-08-18 19:12:26,728 - com.test_classes.ListOfHeroesTest -INFO - Fetching 1st Hero Id : THR
+2020-08-18 19:12:26,866 - com.test_classes.ListOfHeroesTest -INFO - Fetching 2nd Hero Id : HLK
+2020-08-18 19:12:26,867 - com.test_classes.ListOfHeroesTest -INFO - Passing the "heroId1" for fetching the given Hero response
+2020-08-18 19:12:26,957 - com.test_classes.ListOfHeroesTest -INFO - Adding "heroId1" to fight
+2020-08-18 19:14:53,015 - com.test_classes.ListOfHeroesTest -INFO - Passing the "heroId2" for fetching the given Hero response
+2020-08-18 19:15:18,325 - com.test_classes.ListOfHeroesTest -INFO - Adding "heroId2" to fight
+2020-08-18 19:15:43,019 - com.test_classes.ListOfHeroesTest -INFO - Making them fight
+2020-08-18 19:20:52,944 - com.test_classes.ListOfHeroesTest -INFO - Fetching 1st Hero Id : THR
+2020-08-18 19:20:53,096 - com.test_classes.ListOfHeroesTest -INFO - Fetching 2nd Hero Id : HLK
+2020-08-18 19:20:53,098 - com.test_classes.ListOfHeroesTest -INFO - Passing the "heroId1" for fetching the given Hero response
+2020-08-18 19:20:53,237 - com.test_classes.ListOfHeroesTest -INFO - Adding "heroId1" to fight
+2020-08-18 19:20:54,092 - com.test_classes.ListOfHeroesTest -INFO - Passing the "heroId2" for fetching the given Hero response
+2020-08-18 19:20:54,190 - com.test_classes.ListOfHeroesTest -INFO - Adding "heroId2" to fight
+2020-08-18 19:20:54,237 - com.test_classes.ListOfHeroesTest -INFO - Making them fight
+2020-08-18 19:20:54,386 - com.test_classes.ListOfHeroesTest -INFO - Resetting the fight result

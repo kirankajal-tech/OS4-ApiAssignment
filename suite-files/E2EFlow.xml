@@ -1,0 +1,13 @@
+<!--Written & Developed by KAJAL Kiran-->
+
+<suite name = "End 2 End flow for Single Hero Fight">
+    <listeners>
+        <listener class-name= "core.listener_and_reporting.TestListener"/>
+    </listeners>
+
+    <test name="Single Hero Fight" verbose="2" preserve-order="true">
+        <classes>
+            <class name = "com.e2e_flow.O4SEndToEndApiFlow"/>
+        </classes>
+    </test>
+</suite>

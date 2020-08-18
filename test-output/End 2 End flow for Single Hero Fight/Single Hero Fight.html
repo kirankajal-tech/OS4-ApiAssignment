@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  Single Hero Fight</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Single Hero Fight</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 18 17:57:10 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>4 seconds (4031 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test_classes.ListOfHeroesTest.api_01_VerifyListOfHeroes()'><b>api_01_VerifyListOfHeroes</b><br>Test class: com.test_classes.ListOfHeroesTest<br>Test method: Verifying List of all Heroes are getting displayed as expected (or) not : </td>
+<td></td>
+<td>3</td>
+<td>com.test_classes.ListOfHeroesTest@58a90037</td></tr>
+<tr>
+<td title='com.test_classes.GetOneHeroTest.api_02_VerifyOneHeroDetails()'><b>api_02_VerifyOneHeroDetails</b><br>Test class: com.test_classes.GetOneHeroTest<br>Test method: Verifying for existing Hero's details is displayed as expected (or) not : <br>Parameters: Y, Positive - Verifying with passing valid parameter : , THR, 200, null</td>
+<td></td>
+<td>0</td>
+<td>com.test_classes.GetOneHeroTest@74294adb</td></tr>
+<tr>
+<td title='com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest.api_03_VerifyAddingSingleHeroToFight()'><b>api_03_VerifyAddingSingleHeroToFight</b><br>Test class: com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest<br>Test method: Creating and verifying able to add single Hero to fight : <br>Parameters: Y, Positive - Verifying with passing valid parameter for 1st hero_id : , THR, 200, null</td>
+<td></td>
+<td>0</td>
+<td>com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest@70a9f84e</td></tr>
+<tr>
+<td title='com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest.api_03_VerifyAddingSingleHeroToFight()'><b>api_03_VerifyAddingSingleHeroToFight</b><br>Test class: com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest<br>Test method: Creating and verifying able to add single Hero to fight : <br>Parameters: Y, Negative - Verifying with passing same as 1st hero_id parameter : , THR, 400, Thor could not be added because is already in the fight.</td>
+<td></td>
+<td>0</td>
+<td>com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest@70a9f84e</td></tr>
+<tr>
+<td title='com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest.api_03_VerifyAddingSingleHeroToFight()'><b>api_03_VerifyAddingSingleHeroToFight</b><br>Test class: com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest<br>Test method: Creating and verifying able to add single Hero to fight : <br>Parameters: Y, Negative - Verifying without passing parameter : , , 400, Hero ID must be passed on the POST request</td>
+<td></td>
+<td>0</td>
+<td>com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest@70a9f84e</td></tr>
+<tr>
+<td title='com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest.api_03_VerifyAddingSingleHeroToFight()'><b>api_03_VerifyAddingSingleHeroToFight</b><br>Test class: com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest<br>Test method: Creating and verifying able to add single Hero to fight : <br>Parameters: Y, Negative - Verifying with passing invalid parameter as "HGFhjh" : , HGFhjh, 400, There is no hero with the id [HGFhjh]</td>
+<td></td>
+<td>0</td>
+<td>com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest@70a9f84e</td></tr>
+<tr>
+<td title='com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest.api_03_VerifyAddingSingleHeroToFight()'><b>api_03_VerifyAddingSingleHeroToFight</b><br>Test class: com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest<br>Test method: Creating and verifying able to add single Hero to fight : <br>Parameters: Y, Negative - Verifying with passing invalid parameter as "123456" : , 123456, 400, There is no hero with the id [123456]</td>
+<td></td>
+<td>0</td>
+<td>com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest@70a9f84e</td></tr>
+<tr>
+<td title='com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest.api_03_VerifyAddingSingleHeroToFight()'><b>api_03_VerifyAddingSingleHeroToFight</b><br>Test class: com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest<br>Test method: Creating and verifying able to add single Hero to fight : <br>Parameters: Y, Negative - Verifying with passing invalid parameter as "Special Character" : , $^&*^*^, 400, There is no hero with the id [$^&*^*^]</td>
+<td></td>
+<td>0</td>
+<td>com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest@70a9f84e</td></tr>
+<tr>
+<td title='com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest.api_03_VerifyAddingSingleHeroToFight()'><b>api_03_VerifyAddingSingleHeroToFight</b><br>Test class: com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest<br>Test method: Creating and verifying able to add single Hero to fight : <br>Parameters: Y, Negative - Verifying with passing invalid parameter as "Numeric" : , $%YTUJ4546hjk, 400, There is no hero with the id [$%YTUJ4546hjk]</td>
+<td></td>
+<td>0</td>
+<td>com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest@70a9f84e</td></tr>
+<tr>
+<td title='com.test_classes.make_them_fight.FightWithSingleHeroTest.api_07_VerifyMakeHeroFight()'><b>api_07_VerifyMakeHeroFight</b><br>Test class: com.test_classes.make_them_fight.FightWithSingleHeroTest<br>Test method: Creating and verifying able to make the hero fight (or) not : <br>Parameters: Y, Negative - Verifying with adding single hero to fight : , 400, You can not start a fight with less than 2 heroes</td>
+<td></td>
+<td>0</td>
+<td>com.test_classes.make_them_fight.FightWithSingleHeroTest@130f889</td></tr>
+<tr>
+<td title='com.test_classes.ResetTheFightTest.api_10_VerifyResetFight()'><b>api_10_VerifyResetFight</b><br>Test class: com.test_classes.ResetTheFightTest<br>Test method: Deleting and verifying hero fight data is deleted : <br>Parameters: Y, Positive - Verifying fight has ben deleted successfully : , 200, Fight has been deleted and now all heroes went back to Helicarrier Ship.</td>
+<td></td>
+<td>0</td>
+<td>com.test_classes.ResetTheFightTest@1188e820</td></tr>
+</table><p>
+</body>
+</html>

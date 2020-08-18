@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--Written & Developed by KAJAL Kiran-->
+<suite name="E2E Flow for Individual/Double/Triple/four Heroes fighting functionality">
+    <suite-files>
+        <suite-file path="/SingleHeroFightE2EFlow.xml"/>
+        <suite-file path="/FightBetweenTwoHeroesE2EFlow.xml"/>
+        <suite-file path="/FightBetweenThreeHeroesE2EFlow.xml"/>
+        <suite-file path="/FightBetweenFourHeroesE2EFlow.xml"/>
+    </suite-files>
+</suite>

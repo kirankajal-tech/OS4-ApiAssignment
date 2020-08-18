@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be15efe1-6de9-4a58-a40d-2c317e9a4781" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="O4S-Assignment" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>User</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>hero_id</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\Qualitrix folder\Frameworks\api\O4S-Assignment</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/core/utils/PropertyReaders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/utils/Log4JReaders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/listener_and_reporting/TestListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/listener_and_reporting/ExtentTestManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/listener_and_reporting/ExtentManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/api/APIBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/api/ApiConfigSetup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activities/constant_details/gdhgjh.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activities/constant_details/ArchiveAssessment.json" />
+        <option value="$PROJECT_DIR$/src/main/java/activities/constant_details/ListOfHerosConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/activities/test_data_helper/GetOneHeroDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activities/test_data_helper/AddHeroToFightDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activities/constant_details/GetOneHeroConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activities/constant_details/AddHeroToFight.json" />
+        <option value="$PROJECT_DIR$/src/main/java/activities/constant_details/json_file/AddHeroToFight.json" />
+        <option value="$PROJECT_DIR$/src/main/java/core/api/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activities/constant_details/AddHeroToFightConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activities/constant_details/ListOfHeroesConstants.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test_classes/ListOfHerosTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test_classes/GetOneHeroTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test_classes/example.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test_classes/AddHeroToFightTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test_classes/add_hero_to_fight/AddHeroToFightTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test_classes/add_hero_to_fight/AddMoreThanThreeHeroesToFightTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test_classes/add_hero_to_fight/AddSingleHeroToFightTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test_classes/add_hero_to_fight/AddThreeHeroesToFightTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test_classes/add_hero_to_fight/AddTwoHeroesToFightTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activities/constant_details/MakeThemFightConstants.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test_classes/MakeThemFightTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test_classes/make_them_fight/FightWithSingleHeroTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test_classes/make_them_fight/FightBetweenThreeHeroesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test_classes/make_them_fight/FightBetweenTwoHeroesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/activities/constant_details/ResetTheFightConstants.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test_classes/ResetTheFightTest.java" />
+        <option value="$PROJECT_DIR$/suite-file/SingleHeroFight.xml" />
+        <option value="$PROJECT_DIR$/suite-file/FightBetweenFourHeroE2EFlow.xml" />
+        <option value="$PROJECT_DIR$/suite-file/FightBetweenTwoHeroE2EFlow.xml" />
+        <option value="$PROJECT_DIR$/suite-file/FightBetweenThreeHeroE2EFlow.xml" />
+        <option value="$PROJECT_DIR$/suite-file/FightBetweenFourHeroesE2EFlow.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/activities/test_data_helper/TestDataProviders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/api/RequestHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/e2e_flow/O4SEndToEndApiFlow.java" />
+        <option value="$PROJECT_DIR$/suite-file/AllSuite.xml" />
+        <option value="$PROJECT_DIR$/suite-file/E2EFlow.xml" />
+        <option value="$PROJECT_DIR$/readme.md" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1890" />
+    <option name="height" value="975" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="O4S-Assignment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="O4S-Assignment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="O4S-Assignment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="O4S-Assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="TestReport" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Qualitrix folder\Frameworks\api\O4S-Assignment\src\main\java\activities\constant_details\json_file" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Qualitrix folder\Frameworks\api\O4S-Assignment" />
+      <recent name="E:\Qualitrix folder\Frameworks\api\O4S-Assignment\suite-file" />
+      <recent name="E:\Qualitrix folder\Frameworks\api\O4S-Assignment\src\main\java\activities\constant_details" />
+      <recent name="E:\Qualitrix folder\Frameworks\api\O4S-Assignment\src\main\java" />
+      <recent name="E:\Qualitrix folder\Frameworks\api\O4S-Assignment\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.E:/Qualitrix folder/Frameworks/api/O4S-Assignment/suite-file/E2EFlow.xml">
+    <configuration name="E:/Qualitrix folder/Frameworks/api/O4S-Assignment/suite-file/AllSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="O4S-Assignment" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/suite-file/AllSuite.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/Qualitrix folder/Frameworks/api/O4S-Assignment/suite-file/E2EFlow.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="O4S-Assignment" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/suite-file/E2EFlow.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="O4SEndToEndApiFlow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="O4S-Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.e2e_flow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.e2e_flow" />
+      <option name="MAIN_CLASS_NAME" value="com.e2e_flow.O4SEndToEndApiFlow" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="O4SEndToEndApiFlow.api_01_VerifyListOfHeroes" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="O4S-Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.e2e_flow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.e2e_flow" />
+      <option name="MAIN_CLASS_NAME" value="com.e2e_flow.O4SEndToEndApiFlow" />
+      <option name="METHOD_NAME" value="api_01_VerifyListOfHeroes" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="O4SEndToEndApiFlow.verifyingEndToEndFlowTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="O4S-Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.e2e_flow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.e2e_flow" />
+      <option name="MAIN_CLASS_NAME" value="com.e2e_flow.O4SEndToEndApiFlow" />
+      <option name="METHOD_NAME" value="verifyingEndToEndFlowTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.E:/Qualitrix folder/Frameworks/api/O4S-Assignment/suite-file/AllSuite.xml" />
+      <item itemvalue="TestNG.O4SEndToEndApiFlow.api_01_VerifyListOfHeroes" />
+      <item itemvalue="TestNG.O4SEndToEndApiFlow" />
+      <item itemvalue="TestNG.O4SEndToEndApiFlow.verifyingEndToEndFlowTest" />
+      <item itemvalue="TestNG.E:/Qualitrix folder/Frameworks/api/O4S-Assignment/suite-file/E2EFlow.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.E:/Qualitrix folder/Frameworks/api/O4S-Assignment/suite-file/E2EFlow.xml" />
+        <item itemvalue="TestNG.O4SEndToEndApiFlow.verifyingEndToEndFlowTest" />
+        <item itemvalue="TestNG.O4SEndToEndApiFlow" />
+        <item itemvalue="TestNG.O4SEndToEndApiFlow.api_01_VerifyListOfHeroes" />
+        <item itemvalue="TestNG.E:/Qualitrix folder/Frameworks/api/O4S-Assignment/suite-file/AllSuite.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be15efe1-6de9-4a58-a40d-2c317e9a4781" name="Default Changelist" comment="" />
+      <created>1597717486059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597717486059</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="O4SEndToEndApiFlow_api_01_VerifyListOfHeroes - 2020.08.18 at 18h 32m 04s.xml">
+      <configuration name="O4SEndToEndApiFlow.api_01_VerifyListOfHeroes" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="O4SEndToEndApiFlow - 2020.08.18 at 18h 56m 47s.xml">
+      <configuration name="O4SEndToEndApiFlow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="O4SEndToEndApiFlow - 2020.08.18 at 18h 59m 40s.xml">
+      <configuration name="O4SEndToEndApiFlow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="O4SEndToEndApiFlow - 2020.08.18 at 19h 03m 54s.xml">
+      <configuration name="O4SEndToEndApiFlow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="O4SEndToEndApiFlow - 2020.08.18 at 19h 06m 44s.xml">
+      <configuration name="O4SEndToEndApiFlow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="O4SEndToEndApiFlow - 2020.08.18 at 19h 07m 04s.xml">
+      <configuration name="O4SEndToEndApiFlow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="O4SEndToEndApiFlow - 2020.08.18 at 19h 10m 43s.xml">
+      <configuration name="O4SEndToEndApiFlow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="O4SEndToEndApiFlow_verifyingEndToEndFlowTest - 2020.08.18 at 19h 20m 08s.xml">
+      <configuration name="O4SEndToEndApiFlow.verifyingEndToEndFlowTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="O4SEndToEndApiFlow_verifyingEndToEndFlowTest - 2020.08.18 at 19h 20m 55s.xml">
+      <configuration name="O4SEndToEndApiFlow.verifyingEndToEndFlowTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Qualitrix_folder_Frameworks_api_O4S-Assignment_suite-file_E2EFlow_xml - 2020.08.18 at 19h 23m 16s.xml">
+      <configuration name="E:/Qualitrix folder/Frameworks/api/O4S-Assignment/suite-file/E2EFlow.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" weight="0.32064778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1854251" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CheckStyle" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3283582" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50248754" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5936982" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.1854251" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CheckStyle" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3283582" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3283582" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.50248754" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.5936982" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/activities/constant_details/AddHeroToFightConstants.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/e2e_flow/O4SEndToEndApiFlow.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/activities/constant_details/AddHeroToFightConstants.java</url>
+          <line>6</line>
+          <properties field="body" class="activities.constant_details.AddHeroToFightConstants" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/ui/FileUploadClass.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/ui/BrowserDetails.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/utils/ExcelUtilsReaders.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/utils/PropertyReaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/utils/Log4JReaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/listener_and_reporting/TestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/listener_and_reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/listener_and_reporting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activities/constant_details/gdhgjh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test_classes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activities/constant_details/AddHeroToFightData/json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activities/constant_details/MakeThemFight.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activities/test_data_helper/MakeThemFightDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activities/test_data_helper/ResetTheFightDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activities/constant_details/ResetTheFight.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activities/test_data_helper/AddHeroToFightDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activities/constant_details/GetOneHeroConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.7.4/jackson-core-2.7.4.jar!/com/fasterxml/jackson/core/TreeCodec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.7.4/jackson-core-2.7.4.jar!/com/fasterxml/jackson/core/ObjectCodec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.7.4/jackson-databind-2.7.4.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="324" column="205" selection-start-line="324" selection-start-column="205" selection-end-line="324" selection-end-column="205" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/api/APIBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/api/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test_classes/example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="41" column="82" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="41" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test_classes/add_hero_to_fight/AddThreeHeroesToFightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="35" column="126" selection-start-line="35" selection-start-column="126" selection-end-line="35" selection-end-column="126" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activities/constant_details/ListOfHeroesConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test_classes/add_hero_to_fight/AddMoreThanThreeHeroesToFightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="22" selection-start-column="62" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activities/constant_details/MakeThemFightConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test_classes/make_them_fight/FightWithSingleHeroTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activities/constant_details/ResetTheFightConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suite-files/SingleHeroFightE2EFlow.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="86" selection-start-line="12" selection-start-column="86" selection-end-line="12" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suite-files/FightBetweenTwoHeroesE2EFlow.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suite-files/FightBetweenThreeHeroesE2EFlow.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suite-files/FightBetweenFourHeroesE2EFlow.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activities/test_data_helper/TestDataProviders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="90" column="44" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test_classes/make_them_fight/FightBetweenThreeHeroesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test_classes/add_hero_to_fight/AddSingleHeroToFightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/api/RequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test_classes/ListOfHeroesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="3" selection-start-line="26" selection-start-column="8" selection-end-line="28" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test_classes/GetOneHeroTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="36" column="137" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="36" selection-end-column="137" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test_classes/add_hero_to_fight/AddTwoHeroesToFightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="31" column="41" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="31" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/api/ApiConfigSetup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activities/constant_details/json_file/AddHeroToFight.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test_classes/ResetTheFightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="33" column="129" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="33" selection-end-column="129" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test_classes/make_them_fight/FightBetweenTwoHeroesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="34" column="8" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="34" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/activities/constant_details/AddHeroToFightConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/TestInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="44" column="195" selection-start-line="44" selection-start-column="195" selection-end-line="44" selection-end-column="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e_flow/O4SEndToEndApiFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="46" lean-forward="true" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suite-files/AllSuite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suite-files/E2EFlow.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="95" column="23" lean-forward="true" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [End 2 End flow for 3 Heroes Fight]">
+  <listeners>
+    <listener class-name="core.listener_and_reporting.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Make A Fight Between 3 Heroes(failed)">
+    <classes>
+      <class name="com.test_classes.make_them_fight.FightBetweenThreeHeroesTest">
+        <methods>
+          <include name="api_09_VerifyMakeHeroFight" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -->
+    </classes>
+  </test> <!-- Make A Fight Between 3 Heroes(failed) -->
+</suite> <!-- Failed suite [End 2 End flow for 3 Heroes Fight] -->

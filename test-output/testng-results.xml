@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="40" passed="40">
+  <reporter-output>
+  </reporter-output>
+  <suite name="End 2 End flow for 4 Heroes Fight" duration-ms="226" started-at="2020-08-18T17:57:16 IST" finished-at="2020-08-18T17:57:16 IST">
+    <groups>
+    </groups>
+    <test name="Make A Fight Between 4 Heroes" duration-ms="226" started-at="2020-08-18T17:57:16 IST" finished-at="2020-08-18T17:57:16 IST">
+      <class name="com.test_classes.ResetTheFightTest">
+        <test-method status="PASS" signature="api_10_VerifyResetFight(java.lang.String, java.lang.String, int, java.lang.String)[pri:10, instance:com.test_classes.ResetTheFightTest@314c508a]" name="api_10_VerifyResetFight" duration-ms="14" started-at="2020-08-18T17:57:16 IST" description="Deleting and verifying hero fight data is deleted : " data-provider="deletedFightData" finished-at="2020-08-18T17:57:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Positive - Verifying fight has ben deleted successfully : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Fight has been deleted and now all heroes went back to Helicarrier Ship.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_10_VerifyResetFight -->
+      </class> <!-- com.test_classes.ResetTheFightTest -->
+      <class name="com.test_classes.GetOneHeroTest">
+        <test-method status="PASS" signature="api_02_VerifyOneHeroDetails(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:2, instance:com.test_classes.GetOneHeroTest@6a396c1e]" name="api_02_VerifyOneHeroDetails" duration-ms="27" started-at="2020-08-18T17:57:16 IST" description="Verifying for existing Hero&#039;s details is displayed as expected (or) not : " data-provider="getOneHeroData" finished-at="2020-08-18T17:57:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Positive - Verifying with passing valid parameter : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[THR]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_02_VerifyOneHeroDetails -->
+      </class> <!-- com.test_classes.GetOneHeroTest -->
+      <class name="com.test_classes.ListOfHeroesTest">
+        <test-method status="PASS" signature="api_01_VerifyListOfHeroes()[pri:1, instance:com.test_classes.ListOfHeroesTest@1445d7f]" name="api_01_VerifyListOfHeroes" duration-ms="26" started-at="2020-08-18T17:57:16 IST" description="Verifying List of all Heroes are getting displayed as expected (or) not : " finished-at="2020-08-18T17:57:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_01_VerifyListOfHeroes -->
+      </class> <!-- com.test_classes.ListOfHeroesTest -->
+      <class name="com.test_classes.make_them_fight.FightBetweenThreeHeroesTest">
+        <test-method status="PASS" signature="api_09_VerifyMakeHeroFight(java.lang.String, java.lang.String, int, java.lang.String)[pri:9, instance:com.test_classes.make_them_fight.FightBetweenThreeHeroesTest@12405818]" name="api_09_VerifyMakeHeroFight" duration-ms="11" started-at="2020-08-18T17:57:16 IST" description="Creating and verifying able to make the hero fight (or) not : " data-provider="startFightWith3HeroesData" finished-at="2020-08-18T17:57:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying with adding more than 2 heroes to fight : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Internal server error]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_09_VerifyMakeHeroFight -->
+      </class> <!-- com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -->
+      <class name="com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest">
+        <test-method status="PASS" signature="api_06_VerifyAddingMoreThanThreeHeroesToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:6, instance:com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest@6c3f5566]" name="api_06_VerifyAddingMoreThanThreeHeroesToFight" duration-ms="22" started-at="2020-08-18T17:57:16 IST" description="Creating and verifying not able to add 4 Heroes to fight : " data-provider="add4HeroesToFightData" finished-at="2020-08-18T17:57:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Positive - Verifying with passing valid parameter for 1st hero_id : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IRM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_06_VerifyAddingMoreThanThreeHeroesToFight -->
+        <test-method status="PASS" signature="api_06_VerifyAddingMoreThanThreeHeroesToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:6, instance:com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest@6c3f5566]" name="api_06_VerifyAddingMoreThanThreeHeroesToFight" duration-ms="19" started-at="2020-08-18T17:57:16 IST" description="Creating and verifying not able to add 4 Heroes to fight : " data-provider="add4HeroesToFightData" finished-at="2020-08-18T17:57:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying with passing same as 1st hero_id parameter : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IRM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Iron Man could not be added because is already in the fight.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_06_VerifyAddingMoreThanThreeHeroesToFight -->
+        <test-method status="PASS" signature="api_06_VerifyAddingMoreThanThreeHeroesToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:6, instance:com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest@6c3f5566]" name="api_06_VerifyAddingMoreThanThreeHeroesToFight" duration-ms="20" started-at="2020-08-18T17:57:16 IST" description="Creating and verifying not able to add 4 Heroes to fight : " data-provider="add4HeroesToFightData" finished-at="2020-08-18T17:57:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Positive - Verifying with passing valid parameter for 2nd hero_id : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BLW]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_06_VerifyAddingMoreThanThreeHeroesToFight -->
+        <test-method status="PASS" signature="api_06_VerifyAddingMoreThanThreeHeroesToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:6, instance:com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest@6c3f5566]" name="api_06_VerifyAddingMoreThanThreeHeroesToFight" duration-ms="22" started-at="2020-08-18T17:57:16 IST" description="Creating and verifying not able to add 4 Heroes to fight : " data-provider="add4HeroesToFightData" finished-at="2020-08-18T17:57:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying with passing same as 2nd hero_id parameter : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BLW]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Black Widow could not be added because is already in the fight.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_06_VerifyAddingMoreThanThreeHeroesToFight -->
+        <test-method status="PASS" signature="api_06_VerifyAddingMoreThanThreeHeroesToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:6, instance:com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest@6c3f5566]" name="api_06_VerifyAddingMoreThanThreeHeroesToFight" duration-ms="17" started-at="2020-08-18T17:57:16 IST" description="Creating and verifying not able to add 4 Heroes to fight : " data-provider="add4HeroesToFightData" finished-at="2020-08-18T17:57:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Positive - Verifying with passing valid parameter for 3rd hero_id : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DRS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_06_VerifyAddingMoreThanThreeHeroesToFight -->
+        <test-method status="PASS" signature="api_06_VerifyAddingMoreThanThreeHeroesToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:6, instance:com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest@6c3f5566]" name="api_06_VerifyAddingMoreThanThreeHeroesToFight" duration-ms="21" started-at="2020-08-18T17:57:16 IST" description="Creating and verifying not able to add 4 Heroes to fight : " data-provider="add4HeroesToFightData" finished-at="2020-08-18T17:57:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying with passing same as 3rd hero_id parameter : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DRS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Doctor Strange could not be added because is already in the fight.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_06_VerifyAddingMoreThanThreeHeroesToFight -->
+        <test-method status="PASS" signature="api_06_VerifyAddingMoreThanThreeHeroesToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:6, instance:com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest@6c3f5566]" name="api_06_VerifyAddingMoreThanThreeHeroesToFight" duration-ms="16" started-at="2020-08-18T17:57:16 IST" description="Creating and verifying not able to add 4 Heroes to fight : " data-provider="add4HeroesToFightData" finished-at="2020-08-18T17:57:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying with passing valid parameter for 4rd hero_id : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[VSN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[A maximum of 3 heroes are allowed per fight.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_06_VerifyAddingMoreThanThreeHeroesToFight -->
+      </class> <!-- com.test_classes.add_hero_to_fight.AddMoreThanThreeHeroesToFightTest -->
+    </test> <!-- Make A Fight Between 4 Heroes -->
+  </suite> <!-- End 2 End flow for 4 Heroes Fight -->
+  <suite name="End 2 End flow for 3 Heroes Fight" duration-ms="268" started-at="2020-08-18T17:57:15 IST" finished-at="2020-08-18T17:57:15 IST">
+    <groups>
+    </groups>
+    <test name="Make A Fight Between 3 Heroes" duration-ms="268" started-at="2020-08-18T17:57:15 IST" finished-at="2020-08-18T17:57:15 IST">
+      <class name="com.test_classes.ResetTheFightTest">
+        <test-method status="PASS" signature="api_10_VerifyResetFight(java.lang.String, java.lang.String, int, java.lang.String)[pri:10, instance:com.test_classes.ResetTheFightTest@3444d69d]" name="api_10_VerifyResetFight" duration-ms="17" started-at="2020-08-18T17:57:15 IST" description="Deleting and verifying hero fight data is deleted : " data-provider="deletedFightData" finished-at="2020-08-18T17:57:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Positive - Verifying fight has ben deleted successfully : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Fight has been deleted and now all heroes went back to Helicarrier Ship.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_10_VerifyResetFight -->
+      </class> <!-- com.test_classes.ResetTheFightTest -->
+      <class name="com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest">
+        <test-method status="PASS" signature="api_05_VerifyAddingThreeHeroesToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:5, instance:com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest@120d6fe6]" name="api_05_VerifyAddingThreeHeroesToFight" duration-ms="45" started-at="2020-08-18T17:57:15 IST" description="Creating and verifying able to add three Heroes to fight : " data-provider="add3HeroesToFightData" finished-at="2020-08-18T17:57:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Positive - Verifying with passing valid parameter for 1st hero_id : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IRM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_05_VerifyAddingThreeHeroesToFight -->
+        <test-method status="PASS" signature="api_05_VerifyAddingThreeHeroesToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:5, instance:com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest@120d6fe6]" name="api_05_VerifyAddingThreeHeroesToFight" duration-ms="21" started-at="2020-08-18T17:57:15 IST" description="Creating and verifying able to add three Heroes to fight : " data-provider="add3HeroesToFightData" finished-at="2020-08-18T17:57:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying with passing same as 1st hero_id parameter : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IRM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Iron Man could not be added because is already in the fight.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_05_VerifyAddingThreeHeroesToFight -->
+        <test-method status="PASS" signature="api_05_VerifyAddingThreeHeroesToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:5, instance:com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest@120d6fe6]" name="api_05_VerifyAddingThreeHeroesToFight" duration-ms="22" started-at="2020-08-18T17:57:15 IST" description="Creating and verifying able to add three Heroes to fight : " data-provider="add3HeroesToFightData" finished-at="2020-08-18T17:57:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Positive - Verifying with passing valid parameter for 2nd hero_id : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BLW]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_05_VerifyAddingThreeHeroesToFight -->
+        <test-method status="PASS" signature="api_05_VerifyAddingThreeHeroesToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:5, instance:com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest@120d6fe6]" name="api_05_VerifyAddingThreeHeroesToFight" duration-ms="19" started-at="2020-08-18T17:57:15 IST" description="Creating and verifying able to add three Heroes to fight : " data-provider="add3HeroesToFightData" finished-at="2020-08-18T17:57:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying with passing same as 2nd hero_id parameter : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BLW]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Black Widow could not be added because is already in the fight.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_05_VerifyAddingThreeHeroesToFight -->
+        <test-method status="PASS" signature="api_05_VerifyAddingThreeHeroesToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:5, instance:com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest@120d6fe6]" name="api_05_VerifyAddingThreeHeroesToFight" duration-ms="19" started-at="2020-08-18T17:57:15 IST" description="Creating and verifying able to add three Heroes to fight : " data-provider="add3HeroesToFightData" finished-at="2020-08-18T17:57:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Positive - Verifying with passing valid parameter for 3rd hero_id : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DRS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_05_VerifyAddingThreeHeroesToFight -->
+        <test-method status="PASS" signature="api_05_VerifyAddingThreeHeroesToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:5, instance:com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest@120d6fe6]" name="api_05_VerifyAddingThreeHeroesToFight" duration-ms="25" started-at="2020-08-18T17:57:15 IST" description="Creating and verifying able to add three Heroes to fight : " data-provider="add3HeroesToFightData" finished-at="2020-08-18T17:57:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying with passing same as 3rd hero_id parameter : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DRS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Doctor Strange could not be added because is already in the fight.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_05_VerifyAddingThreeHeroesToFight -->
+      </class> <!-- com.test_classes.add_hero_to_fight.AddThreeHeroesToFightTest -->
+      <class name="com.test_classes.GetOneHeroTest">
+        <test-method status="PASS" signature="api_02_VerifyOneHeroDetails(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:2, instance:com.test_classes.GetOneHeroTest@1176dcec]" name="api_02_VerifyOneHeroDetails" duration-ms="33" started-at="2020-08-18T17:57:15 IST" description="Verifying for existing Hero&#039;s details is displayed as expected (or) not : " data-provider="getOneHeroData" finished-at="2020-08-18T17:57:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Positive - Verifying with passing valid parameter : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[THR]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_02_VerifyOneHeroDetails -->
+      </class> <!-- com.test_classes.GetOneHeroTest -->
+      <class name="com.test_classes.ListOfHeroesTest">
+        <test-method status="PASS" signature="api_01_VerifyListOfHeroes()[pri:1, instance:com.test_classes.ListOfHeroesTest@23bb8443]" name="api_01_VerifyListOfHeroes" duration-ms="27" started-at="2020-08-18T17:57:15 IST" description="Verifying List of all Heroes are getting displayed as expected (or) not : " finished-at="2020-08-18T17:57:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_01_VerifyListOfHeroes -->
+      </class> <!-- com.test_classes.ListOfHeroesTest -->
+      <class name="com.test_classes.make_them_fight.FightBetweenThreeHeroesTest">
+        <test-method status="PASS" signature="api_09_VerifyMakeHeroFight(java.lang.String, java.lang.String, int, java.lang.String)[pri:9, instance:com.test_classes.make_them_fight.FightBetweenThreeHeroesTest@4ba2ca36]" name="api_09_VerifyMakeHeroFight" duration-ms="18" started-at="2020-08-18T17:57:15 IST" description="Creating and verifying able to make the hero fight (or) not : " data-provider="startFightWith3HeroesData" finished-at="2020-08-18T17:57:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying with adding more than 2 heroes to fight : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Internal server error]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_09_VerifyMakeHeroFight -->
+      </class> <!-- com.test_classes.make_them_fight.FightBetweenThreeHeroesTest -->
+    </test> <!-- Make A Fight Between 3 Heroes -->
+  </suite> <!-- End 2 End flow for 3 Heroes Fight -->
+  <suite name="End 2 End flow for Single Hero Fight" duration-ms="4031" started-at="2020-08-18T17:57:10 IST" finished-at="2020-08-18T17:57:14 IST">
+    <groups>
+    </groups>
+    <test name="Single Hero Fight" duration-ms="4031" started-at="2020-08-18T17:57:10 IST" finished-at="2020-08-18T17:57:14 IST">
+      <class name="com.test_classes.ResetTheFightTest">
+        <test-method status="PASS" signature="api_10_VerifyResetFight(java.lang.String, java.lang.String, int, java.lang.String)[pri:10, instance:com.test_classes.ResetTheFightTest@1188e820]" name="api_10_VerifyResetFight" duration-ms="47" started-at="2020-08-18T17:57:14 IST" description="Deleting and verifying hero fight data is deleted : " data-provider="deletedFightData" finished-at="2020-08-18T17:57:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Positive - Verifying fight has ben deleted successfully : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Fight has been deleted and now all heroes went back to Helicarrier Ship.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_10_VerifyResetFight -->
+      </class> <!-- com.test_classes.ResetTheFightTest -->
+      <class name="com.test_classes.GetOneHeroTest">
+        <test-method status="PASS" signature="api_02_VerifyOneHeroDetails(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:2, instance:com.test_classes.GetOneHeroTest@74294adb]" name="api_02_VerifyOneHeroDetails" duration-ms="83" started-at="2020-08-18T17:57:13 IST" description="Verifying for existing Hero&#039;s details is displayed as expected (or) not : " data-provider="getOneHeroData" finished-at="2020-08-18T17:57:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Positive - Verifying with passing valid parameter : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[THR]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_02_VerifyOneHeroDetails -->
+      </class> <!-- com.test_classes.GetOneHeroTest -->
+      <class name="com.test_classes.ListOfHeroesTest">
+        <test-method status="PASS" signature="api_01_VerifyListOfHeroes()[pri:1, instance:com.test_classes.ListOfHeroesTest@58a90037]" name="api_01_VerifyListOfHeroes" duration-ms="3119" started-at="2020-08-18T17:57:10 IST" description="Verifying List of all Heroes are getting displayed as expected (or) not : " finished-at="2020-08-18T17:57:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_01_VerifyListOfHeroes -->
+      </class> <!-- com.test_classes.ListOfHeroesTest -->
+      <class name="com.test_classes.make_them_fight.FightWithSingleHeroTest">
+        <test-method status="PASS" signature="api_07_VerifyMakeHeroFight(java.lang.String, java.lang.String, int, java.lang.String)[pri:7, instance:com.test_classes.make_them_fight.FightWithSingleHeroTest@130f889]" name="api_07_VerifyMakeHeroFight" duration-ms="53" started-at="2020-08-18T17:57:14 IST" description="Creating and verifying able to make the hero fight (or) not : " data-provider="startFightWithSingleHeroData" finished-at="2020-08-18T17:57:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying with adding single hero to fight : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[You can not start a fight with less than 2 heroes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_07_VerifyMakeHeroFight -->
+      </class> <!-- com.test_classes.make_them_fight.FightWithSingleHeroTest -->
+      <class name="com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest">
+        <test-method status="PASS" signature="api_03_VerifyAddingSingleHeroToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:3, instance:com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest@70a9f84e]" name="api_03_VerifyAddingSingleHeroToFight" duration-ms="323" started-at="2020-08-18T17:57:13 IST" description="Creating and verifying able to add single Hero to fight : " data-provider="addSingleHeroToFightData" finished-at="2020-08-18T17:57:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Positive - Verifying with passing valid parameter for 1st hero_id : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[THR]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_03_VerifyAddingSingleHeroToFight -->
+        <test-method status="PASS" signature="api_03_VerifyAddingSingleHeroToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:3, instance:com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest@70a9f84e]" name="api_03_VerifyAddingSingleHeroToFight" duration-ms="33" started-at="2020-08-18T17:57:13 IST" description="Creating and verifying able to add single Hero to fight : " data-provider="addSingleHeroToFightData" finished-at="2020-08-18T17:57:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying with passing same as 1st hero_id parameter : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[THR]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Thor could not be added because is already in the fight.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_03_VerifyAddingSingleHeroToFight -->
+        <test-method status="PASS" signature="api_03_VerifyAddingSingleHeroToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:3, instance:com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest@70a9f84e]" name="api_03_VerifyAddingSingleHeroToFight" duration-ms="29" started-at="2020-08-18T17:57:13 IST" description="Creating and verifying able to add single Hero to fight : " data-provider="addSingleHeroToFightData" finished-at="2020-08-18T17:57:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying without passing parameter : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Hero ID must be passed on the POST request]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_03_VerifyAddingSingleHeroToFight -->
+        <test-method status="PASS" signature="api_03_VerifyAddingSingleHeroToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:3, instance:com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest@70a9f84e]" name="api_03_VerifyAddingSingleHeroToFight" duration-ms="27" started-at="2020-08-18T17:57:13 IST" description="Creating and verifying able to add single Hero to fight : " data-provider="addSingleHeroToFightData" finished-at="2020-08-18T17:57:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying with passing invalid parameter as "HGFhjh" : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HGFhjh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[There is no hero with the id [HGFhjh]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_03_VerifyAddingSingleHeroToFight -->
+        <test-method status="PASS" signature="api_03_VerifyAddingSingleHeroToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:3, instance:com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest@70a9f84e]" name="api_03_VerifyAddingSingleHeroToFight" duration-ms="38" started-at="2020-08-18T17:57:13 IST" description="Creating and verifying able to add single Hero to fight : " data-provider="addSingleHeroToFightData" finished-at="2020-08-18T17:57:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying with passing invalid parameter as "123456" : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[There is no hero with the id [123456]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_03_VerifyAddingSingleHeroToFight -->
+        <test-method status="PASS" signature="api_03_VerifyAddingSingleHeroToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:3, instance:com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest@70a9f84e]" name="api_03_VerifyAddingSingleHeroToFight" duration-ms="51" started-at="2020-08-18T17:57:14 IST" description="Creating and verifying able to add single Hero to fight : " data-provider="addSingleHeroToFightData" finished-at="2020-08-18T17:57:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying with passing invalid parameter as "Special Character" : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$^&*^*^]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[There is no hero with the id [$^&*^*^]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_03_VerifyAddingSingleHeroToFight -->
+        <test-method status="PASS" signature="api_03_VerifyAddingSingleHeroToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:3, instance:com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest@70a9f84e]" name="api_03_VerifyAddingSingleHeroToFight" duration-ms="88" started-at="2020-08-18T17:57:14 IST" description="Creating and verifying able to add single Hero to fight : " data-provider="addSingleHeroToFightData" finished-at="2020-08-18T17:57:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying with passing invalid parameter as "Numeric" : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$%YTUJ4546hjk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[There is no hero with the id [$%YTUJ4546hjk]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_03_VerifyAddingSingleHeroToFight -->
+      </class> <!-- com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -->
+    </test> <!-- Single Hero Fight -->
+  </suite> <!-- End 2 End flow for Single Hero Fight -->
+  <suite name="End 2 End flow for 2 Heroes Fight" duration-ms="441" started-at="2020-08-18T17:57:14 IST" finished-at="2020-08-18T17:57:15 IST">
+    <groups>
+    </groups>
+    <test name="Make A Fight Between 2 Heroes" duration-ms="441" started-at="2020-08-18T17:57:14 IST" finished-at="2020-08-18T17:57:15 IST">
+      <class name="com.test_classes.ResetTheFightTest">
+        <test-method status="PASS" signature="api_10_VerifyResetFight(java.lang.String, java.lang.String, int, java.lang.String)[pri:10, instance:com.test_classes.ResetTheFightTest@76329302]" name="api_10_VerifyResetFight" duration-ms="170" started-at="2020-08-18T17:57:15 IST" description="Deleting and verifying hero fight data is deleted : " data-provider="deletedFightData" finished-at="2020-08-18T17:57:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Positive - Verifying fight has ben deleted successfully : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Fight has been deleted and now all heroes went back to Helicarrier Ship.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_10_VerifyResetFight -->
+      </class> <!-- com.test_classes.ResetTheFightTest -->
+      <class name="com.test_classes.GetOneHeroTest">
+        <test-method status="PASS" signature="api_02_VerifyOneHeroDetails(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:2, instance:com.test_classes.GetOneHeroTest@282003e1]" name="api_02_VerifyOneHeroDetails" duration-ms="81" started-at="2020-08-18T17:57:14 IST" description="Verifying for existing Hero&#039;s details is displayed as expected (or) not : " data-provider="getOneHeroData" finished-at="2020-08-18T17:57:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Positive - Verifying with passing valid parameter : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[THR]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_02_VerifyOneHeroDetails -->
+      </class> <!-- com.test_classes.GetOneHeroTest -->
+      <class name="com.test_classes.ListOfHeroesTest">
+        <test-method status="PASS" signature="api_01_VerifyListOfHeroes()[pri:1, instance:com.test_classes.ListOfHeroesTest@4148db48]" name="api_01_VerifyListOfHeroes" duration-ms="42" started-at="2020-08-18T17:57:14 IST" description="Verifying List of all Heroes are getting displayed as expected (or) not : " finished-at="2020-08-18T17:57:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_01_VerifyListOfHeroes -->
+      </class> <!-- com.test_classes.ListOfHeroesTest -->
+      <class name="com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest">
+        <test-method status="PASS" signature="api_04_VerifyAddingTwoHeroesToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:4, instance:com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest@7fad8c79]" name="api_04_VerifyAddingTwoHeroesToFight" duration-ms="23" started-at="2020-08-18T17:57:15 IST" description="Creating and verifying able to add two Heroes to fight : " data-provider="add2HeroesToFightData" finished-at="2020-08-18T17:57:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Positive - Verifying with passing valid parameter for 1st hero_id : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HLK]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_04_VerifyAddingTwoHeroesToFight -->
+        <test-method status="PASS" signature="api_04_VerifyAddingTwoHeroesToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:4, instance:com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest@7fad8c79]" name="api_04_VerifyAddingTwoHeroesToFight" duration-ms="25" started-at="2020-08-18T17:57:15 IST" description="Creating and verifying able to add two Heroes to fight : " data-provider="add2HeroesToFightData" finished-at="2020-08-18T17:57:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying with passing same as 1st hero_id parameter : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HLK]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Hulk could not be added because is already in the fight.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_04_VerifyAddingTwoHeroesToFight -->
+        <test-method status="PASS" signature="api_04_VerifyAddingTwoHeroesToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:4, instance:com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest@7fad8c79]" name="api_04_VerifyAddingTwoHeroesToFight" duration-ms="28" started-at="2020-08-18T17:57:15 IST" description="Creating and verifying able to add two Heroes to fight : " data-provider="add2HeroesToFightData" finished-at="2020-08-18T17:57:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Positive - Verifying with passing valid parameter for 2nd hero_id : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CAM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_04_VerifyAddingTwoHeroesToFight -->
+        <test-method status="PASS" signature="api_04_VerifyAddingTwoHeroesToFight(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:4, instance:com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest@7fad8c79]" name="api_04_VerifyAddingTwoHeroesToFight" duration-ms="21" started-at="2020-08-18T17:57:15 IST" description="Creating and verifying able to add two Heroes to fight : " data-provider="add2HeroesToFightData" finished-at="2020-08-18T17:57:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying with passing same as 2nd hero_id parameter : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CAM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Captain America could not be added because is already in the fight.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_04_VerifyAddingTwoHeroesToFight -->
+      </class> <!-- com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest -->
+      <class name="com.test_classes.make_them_fight.FightBetweenTwoHeroesTest">
+        <test-method status="PASS" signature="api_08_VerifyMakeHeroFight(java.lang.String, java.lang.String, int, java.lang.String)[pri:8, instance:com.test_classes.make_them_fight.FightBetweenTwoHeroesTest@71a794e5]" name="api_08_VerifyMakeHeroFight" duration-ms="27" started-at="2020-08-18T17:57:15 IST" description="Creating and verifying able to make the hero fight (or) not : " data-provider="startFightWith2HeroesData" finished-at="2020-08-18T17:57:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative - Verifying with adding 2 heroes to fight : ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Heroes fought hard! The winner is Black Widow!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_08_VerifyMakeHeroFight -->
+      </class> <!-- com.test_classes.make_them_fight.FightBetweenTwoHeroesTest -->
+    </test> <!-- Make A Fight Between 2 Heroes -->
+  </suite> <!-- End 2 End flow for 2 Heroes Fight -->
+  <suite name="E2E Flow for Individual/Double/Triple/four Heroes fighting functionality" duration-ms="0" started-at="2020-08-18T17:57:16 IST" finished-at="2020-08-18T17:57:16 IST">
+    <groups>
+    </groups>
+  </suite> <!-- E2E Flow for Individual/Double/Triple/four Heroes fighting functionality -->
+</testng-results>

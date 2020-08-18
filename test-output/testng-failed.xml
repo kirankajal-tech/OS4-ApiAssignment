@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [End 2 End flow for Single Hero Fight]">
+  <listeners>
+    <listener class-name="core.listener_and_reporting.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Single Hero Fight(failed)">
+    <classes>
+      <class name="com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest">
+        <methods>
+          <include name="api_03_VerifyAddingSingleHeroToFight" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test_classes.add_hero_to_fight.AddSingleHeroToFightTest -->
+    </classes>
+  </test> <!-- Single Hero Fight(failed) -->
+</suite> <!-- Failed suite [End 2 End flow for Single Hero Fight] -->

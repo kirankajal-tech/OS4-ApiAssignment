@@ -1,0 +1,17 @@
+<!--Written & Developed by KAJAL Kiran-->
+
+<suite name = "End 2 End flow for 2 Heroes Fight">
+    <listeners>
+        <listener class-name= "core.listener_and_reporting.TestListener"/>
+    </listeners>
+
+    <test name="Make A Fight Between 2 Heroes" verbose="2" preserve-order="true">
+        <classes>
+            <class name = "com.test_classes.ListOfHeroesTest"/>
+            <class name = "com.test_classes.GetOneHeroTest"/>
+            <class name = "com.test_classes.add_hero_to_fight.AddTwoHeroesToFightTest"/>
+            <class name = "com.test_classes.make_them_fight.FightBetweenTwoHeroesTest"/>
+            <class name = "com.test_classes.ResetTheFightTest"/>
+        </classes>
+    </test>
+</suite>
